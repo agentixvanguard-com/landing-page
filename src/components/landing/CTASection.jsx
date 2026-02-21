@@ -44,6 +44,7 @@ export default function CTASection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               size="lg"
+              onClick={() => window.open("https://calendly.com/agentixvanguard/architecture-audit", "_blank")}
               className="relative group px-10 py-7 text-base font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white rounded-xl shadow-[0_0_50px_rgba(0,229,255,0.3)] hover:shadow-[0_0_80px_rgba(0,229,255,0.5)] transition-all duration-500"
             >
               <span className="relative z-10 flex items-center gap-2">
