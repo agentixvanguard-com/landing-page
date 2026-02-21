@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "Ingeniería de Agentes de Grado Industrial",
+    "title": "La Evolución de la",
+    "titleHighlight": "Autonomía Empresarial",
+    "subtitle": "Implementamos agentes de IA con <1>memoria persistente</1> y <1>lógica determinista</1>. Impulsados por Vertex AI y protegidos por el <2>Protocolo Ouroboros</2>.",
+    "ctaAudit": "Agenda una Auditoría de Arquitectura",
+    "ctaDemo": "Ver Demo",
+    "stats": {
+      "uptime": "Uptime",
+      "latency": "Latencia",
+      "errors": "Errores en Prod"
+    }
+  },
+  "nav": {
+    "services": "Servicios",
+    "protocol": "Protocolo",
+    "stack": "Stack",
+    "security": "Seguridad",
+    "contact": "Contactar"
+  },
+  "services": {
+    "badge": "The Vanguard Suite",
+    "title": "Fuerza Laboral Digital con",
+    "titleHighlight": "Arquitectura Militar",
+    "subtitle": "No creamos chatbots. Construimos agentes autónomos que operan con la precisión de un sistema de defensa.",
+    "explore": "Explorar",
+    "items": [
+      {
+        "title": "Sales & Conversion Agents",
+        "subtitle": "Agente \"Luna\" — Ventas Autónomas 24/7",
+        "description": "Agentes como Luna gestionan DMs en Instagram y WhatsApp, consultan disponibilidad real en bases de datos Aurora V2 y cierran ventas sin intervención humana. Pipeline de conversión inteligente con seguimiento automático.",
+        "features": ["Instagram & WhatsApp DMs", "Consulta en tiempo real (Aurora V2)", "Cierre autónomo 24/7", "Seguimiento predictivo"]
+      },
+      {
+        "title": "Ops & Workflow Automation",
+        "subtitle": "Automatización de Grado Industrial",
+        "description": "Automatización de procesos internos end-to-end, desde RRHH hasta gestión de riesgos. Integración nativa de AWS Lambdas con sistemas legados para orquestar flujos complejos sin puntos de fallo.",
+        "features": ["RRHH & Onboarding", "Gestión de riesgos", "AWS Lambda integrado", "Sistemas legados conectados"]
+      },
+      {
+        "title": "AI Architecture Consulting",
+        "subtitle": "Diseño y Auditoría de Sistemas de IA",
+        "description": "Diseño de especificaciones computables y auditoría completa de sistemas de IA existentes para empresas que buscan escala. Transformamos arquitecturas frágiles en infraestructura resiliente.",
+        "features": ["Especificaciones computables", "Auditoría de IA existente", "Escalabilidad enterprise", "Arquitectura resiliente"]
+      }
+    ]
+  },
+  "ouroboros": {
+    "badge": "El Diferencial",
+    "title": "Protocolo",
+    "titleHighlight": "Ouroboros",
+    "subtitle": "Un ciclo de desarrollo donde la IA se diseña, se programa y se audita a sí misma. QA Adversario para garantizar cero errores en producción.",
+    "cycleLabel": "Ciclo Infinito de Mejora",
+    "steps": [
+      {
+        "title": "Cristalización",
+        "subtitle": "Especificaciones Vivas",
+        "description": "Antes de escribir una línea de código, creamos especificaciones computables que actúan como contratos verificables. El sistema sabe exactamente qué debe hacer, sin ambigüedad."
+      },
+      {
+        "title": "Enjambre",
+        "subtitle": "Desarrollo Paralelo",
+        "description": "Agentes especializados trabajan en paralelo sobre diferentes módulos del sistema. Cada agente es experto en su dominio, maximizando la velocidad sin sacrificar calidad."
+      },
+      {
+        "title": "Auditoría Adversaria",
+        "subtitle": "Red Teamer Autónomo",
+        "description": "Un agente \"Red Teamer\" ataca sistemáticamente cada componente antes de producción. Encuentra vulnerabilidades, edge cases y puntos de fallo que ningún equipo humano detectaría a tiempo."
+      },
+      {
+        "title": "Memoria Cognitiva",
+        "subtitle": "Aprendizaje Continuo",
+        "description": "El sistema aprende de cada interacción mediante RAG (Retrieval-Augmented Generation) y logs persistentes. Cada ciclo hace al sistema más inteligente y resiliente."
+      }
+    ]
+  },
+  "techStack": {
+    "badge": "Stack Tecnológico",
+    "title": "Infraestructura de",
+    "titleHighlight": "Clase Enterprise",
+    "subtitle": "Cada componente de nuestro stack está seleccionado para máxima fiabilidad, escalabilidad y rendimiento.",
+    "items": [
+      { "name": "Vertex AI", "subtitle": "Google Cloud", "description": "Motor de IA para inferencia, fine-tuning y orquestación de agentes." },
+      { "name": "AWS Lambda", "subtitle": "Serverless", "description": "Funciones serverless para ejecución event-driven con escalado automático." },
+      { "name": "Aurora V2", "subtitle": "PostgreSQL", "description": "Base de datos relacional de alta disponibilidad con lecturas de microsegundos." },
+      { "name": "React Native", "subtitle": "Mobile", "description": "Desarrollo de interfaces móviles nativas de alto rendimiento." },
+      { "name": "Node.js", "subtitle": "Backend", "description": "Runtime para microservicios de baja latencia y APIs en tiempo real." },
+      { "name": "RAG Pipeline", "subtitle": "Memoria Cognitiva", "description": "Retrieval-Augmented Generation para contexto dinámico y aprendizaje continuo." }
+    ]
+  },
+  "trust": {
+    "badge": "Confianza & Seguridad",
+    "title": "Privacidad de Datos",
+    "titleHighlight": "Enterprise",
+    "subtitle": "Seguridad de grado industrial y latencia mínima. Tu infraestructura de IA, blindada.",
+    "banner": "Protocolo Ouroboros incluye QA Adversario en cada deployment. Cero errores en producción no es una promesa — es una garantía arquitectónica.",
+    "bannerHighlight": "Cero errores en producción",
+    "items": [
+      { "title": "Encriptación End-to-End", "description": "Datos en tránsito y en reposo protegidos con AES-256 y TLS 1.3." },
+      { "title": "Auditoría Continua", "description": "Logs inmutables de cada acción del agente para compliance total." },
+      { "title": "Infraestructura Aislada", "description": "VPC dedicada con zero-trust networking y segmentación de red." },
+      { "title": "Latencia Mínima", "description": "Edge computing con CDN global para respuestas sub-50ms." },
+      { "title": "SOC 2 Ready", "description": "Arquitectura diseñada para cumplir los estándares más exigentes." },
+      { "title": "99.99% Disponibilidad", "description": "Multi-AZ con failover automático y recuperación ante desastres." }
+    ]
+  },
+  "cta": {
+    "badge": "El Siguiente Paso",
+    "title": "¿Listo para desplegar tu",
+    "titleHighlight": "Fuerza Laboral Digital",
+    "titleSuffix": "?",
+    "paragraph": "Agenda una auditoría de arquitectura gratuita. Analizamos tu infraestructura actual y diseñamos el roadmap hacia la autonomía operativa.",
+    "button": "Agenda tu Auditoría Gratuita",
+    "disclaimer": "Sin compromiso · Respuesta en 24h"
+  },
+  "footer": {
+    "services": "Servicios",
+    "protocol": "Protocolo",
+    "stack": "Stack",
+    "security": "Seguridad",
+    "contact": "Contacto",
+    "copyright": "© 2026 Agentix Vanguard. Todos los derechos reservados."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "message": "La página \"{{path}}\" no existe en esta aplicación.",
+    "goHome": "Ir al inicio"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "Industrial-Grade Agent Engineering",
+    "title": "The Evolution of",
+    "titleHighlight": "Enterprise Autonomy",
+    "subtitle": "We build AI agents with <1>persistent memory</1> and <1>deterministic logic</1>. Powered by Vertex AI and protected by the <2>Ouroboros Protocol</2>.",
+    "ctaAudit": "Schedule an Architecture Audit",
+    "ctaDemo": "View Demo",
+    "stats": {
+      "uptime": "Uptime",
+      "latency": "Latency",
+      "errors": "Prod Errors"
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "protocol": "Protocol",
+    "stack": "Stack",
+    "security": "Security",
+    "contact": "Contact"
+  },
+  "services": {
+    "badge": "The Vanguard Suite",
+    "title": "Digital Workforce with",
+    "titleHighlight": "Military-Grade Architecture",
+    "subtitle": "We don't build chatbots. We build autonomous agents that operate with the precision of a defense system.",
+    "explore": "Explore",
+    "items": [
+      {
+        "title": "Sales & Conversion Agents",
+        "subtitle": "Agent \"Luna\" — Autonomous Sales 24/7",
+        "description": "Agents like Luna handle DMs on Instagram and WhatsApp, check real availability in Aurora V2 databases, and close sales without human intervention. Intelligent conversion pipeline with automatic follow-up.",
+        "features": ["Instagram & WhatsApp DMs", "Real-time lookup (Aurora V2)", "Autonomous close 24/7", "Predictive follow-up"]
+      },
+      {
+        "title": "Ops & Workflow Automation",
+        "subtitle": "Industrial-Grade Automation",
+        "description": "End-to-end internal process automation, from HR to risk management. Native AWS Lambda integration with legacy systems to orchestrate complex flows with no single point of failure.",
+        "features": ["HR & Onboarding", "Risk management", "AWS Lambda integrated", "Legacy systems connected"]
+      },
+      {
+        "title": "AI Architecture Consulting",
+        "subtitle": "AI System Design & Audit",
+        "description": "Computable specifications design and full audit of existing AI systems for companies scaling up. We turn fragile architectures into resilient infrastructure.",
+        "features": ["Computable specifications", "Existing AI audit", "Enterprise scalability", "Resilient architecture"]
+      }
+    ]
+  },
+  "ouroboros": {
+    "badge": "The Differentiator",
+    "title": "Ouroboros",
+    "titleHighlight": "Protocol",
+    "subtitle": "A development cycle where AI designs, programs, and audits itself. Adversarial QA to ensure zero errors in production.",
+    "cycleLabel": "Infinite Improvement Cycle",
+    "steps": [
+      {
+        "title": "Crystallization",
+        "subtitle": "Living Specifications",
+        "description": "Before writing a single line of code, we create computable specifications that act as verifiable contracts. The system knows exactly what it must do, with no ambiguity."
+      },
+      {
+        "title": "Swarm",
+        "subtitle": "Parallel Development",
+        "description": "Specialized agents work in parallel on different system modules. Each agent is an expert in its domain, maximizing speed without sacrificing quality."
+      },
+      {
+        "title": "Adversarial Audit",
+        "subtitle": "Autonomous Red Teamer",
+        "description": "A \"Red Teamer\" agent systematically attacks every component before production. It finds vulnerabilities, edge cases, and failure points that no human team would catch in time."
+      },
+      {
+        "title": "Cognitive Memory",
+        "subtitle": "Continuous Learning",
+        "description": "The system learns from every interaction via RAG (Retrieval-Augmented Generation) and persistent logs. Each cycle makes the system smarter and more resilient."
+      }
+    ]
+  },
+  "techStack": {
+    "badge": "Tech Stack",
+    "title": "Enterprise-Class",
+    "titleHighlight": "Infrastructure",
+    "subtitle": "Every component in our stack is chosen for maximum reliability, scalability, and performance.",
+    "items": [
+      { "name": "Vertex AI", "subtitle": "Google Cloud", "description": "AI engine for inference, fine-tuning, and agent orchestration." },
+      { "name": "AWS Lambda", "subtitle": "Serverless", "description": "Serverless functions for event-driven execution with automatic scaling." },
+      { "name": "Aurora V2", "subtitle": "PostgreSQL", "description": "High-availability relational database with microsecond reads." },
+      { "name": "React Native", "subtitle": "Mobile", "description": "High-performance native mobile interface development." },
+      { "name": "Node.js", "subtitle": "Backend", "description": "Runtime for low-latency microservices and real-time APIs." },
+      { "name": "RAG Pipeline", "subtitle": "Cognitive Memory", "description": "Retrieval-Augmented Generation for dynamic context and continuous learning." }
+    ]
+  },
+  "trust": {
+    "badge": "Trust & Security",
+    "title": "Enterprise Data",
+    "titleHighlight": "Privacy",
+    "subtitle": "Industrial-grade security and minimal latency. Your AI infrastructure, locked down.",
+    "banner": "Ouroboros Protocol includes Adversarial QA on every deployment. Zero production errors isn't a promise — it's an architectural guarantee.",
+    "bannerHighlight": "Zero errors in production",
+    "items": [
+      { "title": "End-to-End Encryption", "description": "Data in transit and at rest protected with AES-256 and TLS 1.3." },
+      { "title": "Continuous Auditing", "description": "Immutable logs of every agent action for full compliance." },
+      { "title": "Isolated Infrastructure", "description": "Dedicated VPC with zero-trust networking and network segmentation." },
+      { "title": "Minimal Latency", "description": "Edge computing with global CDN for sub-50ms responses." },
+      { "title": "SOC 2 Ready", "description": "Architecture designed to meet the most demanding standards." },
+      { "title": "99.99% Availability", "description": "Multi-AZ with automatic failover and disaster recovery." }
+    ]
+  },
+  "cta": {
+    "badge": "Next Step",
+    "title": "Ready to deploy your",
+    "titleHighlight": "Digital Workforce",
+    "titleSuffix": "?",
+    "paragraph": "Schedule a free architecture audit. We analyze your current infrastructure and design the roadmap to operational autonomy.",
+    "button": "Schedule Your Free Audit",
+    "disclaimer": "No commitment · Response within 24h"
+  },
+  "footer": {
+    "services": "Services",
+    "protocol": "Protocol",
+    "stack": "Stack",
+    "security": "Security",
+    "contact": "Contact",
+    "copyright": "© 2026 Agentix Vanguard. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page \"{{path}}\" could not be found in this application.",
+    "goHome": "Go Home"
+  }
+}
