@@ -1,12 +1,15 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { MessageSquare, Cog, Search, ArrowRight, Shield } from "lucide-react";
+import { MessageSquare, Headset, Megaphone, Users, ShieldAlert, Cpu, ArrowRight, Shield } from "lucide-react";
 
 const serviceStyles = [
   { icon: MessageSquare, accent: "from-cyan-400 to-blue-500", glowColor: "rgba(0,229,255,0.15)", borderColor: "border-cyan-500/20" },
-  { icon: Cog, accent: "from-purple-400 to-violet-600", glowColor: "rgba(168,85,247,0.15)", borderColor: "border-purple-500/20" },
-  { icon: Search, accent: "from-blue-400 to-indigo-600", glowColor: "rgba(59,130,246,0.15)", borderColor: "border-blue-500/20" },
+  { icon: Headset, accent: "from-emerald-400 to-teal-600", glowColor: "rgba(52,211,153,0.15)", borderColor: "border-emerald-500/20" },
+  { icon: Megaphone, accent: "from-orange-400 to-red-500", glowColor: "rgba(249,115,22,0.15)", borderColor: "border-orange-500/20" },
+  { icon: Users, accent: "from-violet-400 to-purple-600", glowColor: "rgba(139,92,246,0.15)", borderColor: "border-violet-500/20" },
+  { icon: ShieldAlert, accent: "from-rose-400 to-pink-600", glowColor: "rgba(244,63,94,0.15)", borderColor: "border-rose-500/20" },
+  { icon: Cpu, accent: "from-blue-400 to-indigo-600", glowColor: "rgba(59,130,246,0.15)", borderColor: "border-blue-500/20" },
 ];
 
 const containerVariants = {
@@ -50,7 +53,7 @@ export default function ServicesSection() {
               {t('services.titleHighlight')}
             </span>
           </h2>
-          <p className="max-w-xl mx-auto text-slate-400">
+          <p className="max-w-xl mx-auto text-slate-300">
             {t('services.subtitle')}
           </p>
         </motion.div>
@@ -61,7 +64,7 @@ export default function ServicesSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-6"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {Array.isArray(items) && items.map((item, i) => {
             const serviceStyle = serviceStyles[i] ?? serviceStyles[0];
@@ -70,6 +73,8 @@ export default function ServicesSection() {
               <motion.div
                 key={i}
                 variants={cardVariants}
+                role="article"
+                aria-label={`Servicio: ${item.title}`}
                 className={`group relative rounded-2xl border ${serviceStyle.borderColor} bg-gradient-to-b from-slate-900/80 to-[#050a18] backdrop-blur-sm p-8 hover:border-opacity-50 transition-all duration-500`}
               >
                 {/* Glow on hover */}
@@ -88,13 +93,13 @@ export default function ServicesSection() {
 
                   <h3 className="text-xl font-bold text-white mb-1">{item.title}</h3>
                   <p className="text-sm text-cyan-400/80 font-medium mb-4">{item.subtitle}</p>
-                  <p className="text-sm text-slate-400 leading-relaxed mb-6">{item.description}</p>
+                  <p className="text-sm text-slate-300 leading-relaxed mb-6">{item.description}</p>
 
                   {/* Features */}
                   <ul className="space-y-2 mb-6">
                     {(item.features || []).map((f, j) => (
-                      <li key={j} className="flex items-center gap-2 text-xs text-slate-500">
-                        <div className={`w-1 h-1 rounded-full bg-gradient-to-r ${serviceStyle.accent}`} />
+                      <li key={j} className="flex items-center gap-2 text-xs text-slate-400">
+                        <div className={`w-1 h-1 rounded-full bg-gradient-to-r ${serviceStyle.accent}`} aria-hidden="true" />
                         {f}
                       </li>
                     ))}

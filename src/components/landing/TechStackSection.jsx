@@ -1,15 +1,24 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Cloud, Database, Cpu, Smartphone, Server, Layers } from "lucide-react";
+import { Cloud, Database, Cpu, Smartphone, Server, Layers, Brain, Network, Boxes, Zap } from "lucide-react";
 
 const techStyles = [
   { icon: Cloud, color: "text-cyan-400", bgColor: "bg-cyan-500/10", borderColor: "border-cyan-500/20" },
   { icon: Cpu, color: "text-amber-400", bgColor: "bg-amber-500/10", borderColor: "border-amber-500/20" },
   { icon: Database, color: "text-blue-400", bgColor: "bg-blue-500/10", borderColor: "border-blue-500/20" },
+  { icon: Brain, color: "text-pink-400", bgColor: "bg-pink-500/10", borderColor: "border-pink-500/20" },
+  { icon: Zap, color: "text-yellow-400", bgColor: "bg-yellow-500/10", borderColor: "border-yellow-500/20" },
+  { icon: Zap, color: "text-blue-400", bgColor: "bg-blue-500/10", borderColor: "border-blue-500/20" },
+  { icon: Zap, color: "text-cyan-400", bgColor: "bg-cyan-500/10", borderColor: "border-cyan-500/20" },
+  { icon: Database, color: "text-blue-400", bgColor: "bg-blue-500/10", borderColor: "border-blue-500/20" },
+  { icon: Database, color: "text-cyan-400", bgColor: "bg-cyan-500/10", borderColor: "border-cyan-500/20" },
+  { icon: Database, color: "text-blue-400", bgColor: "bg-blue-500/10", borderColor: "border-blue-500/20" },
+  { icon: Layers, color: "text-cyan-400", bgColor: "bg-cyan-500/10", borderColor: "border-cyan-500/20" },
   { icon: Smartphone, color: "text-sky-400", bgColor: "bg-sky-500/10", borderColor: "border-sky-500/20" },
-  { icon: Server, color: "text-green-400", bgColor: "bg-green-500/10", borderColor: "border-green-500/20" },
   { icon: Layers, color: "text-purple-400", bgColor: "bg-purple-500/10", borderColor: "border-purple-500/20" },
+  { icon: Cpu, color: "text-emerald-400", bgColor: "bg-emerald-500/10", borderColor: "border-emerald-500/20" },
+  { icon: Boxes, color: "text-indigo-400", bgColor: "bg-indigo-500/10", borderColor: "border-indigo-500/20" },
 ];
 
 export default function TechStackSection() {

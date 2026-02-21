@@ -3,7 +3,7 @@
     "badge": "Industrial-Grade Agent Engineering",
     "title": "The Evolution of",
     "titleHighlight": "Enterprise Autonomy",
-    "subtitle": "We build AI agents with <1>persistent memory</1> and <1>deterministic logic</1>. Powered by Vertex AI and protected by the <2>Ouroboros Protocol</2>.",
+    "subtitle": "We build AI agents with <1>persistent memory</1> and <1>deterministic logic</1>. Powered by Vertex AI, Azure AI Foundry, Amazon Bedrock and protected by the <2>Ouroboros Protocol</2>.",
     "ctaAudit": "Schedule an Architecture Audit",
     "ctaDemo": "View Demo",
     "stats": {
@@ -12,8 +12,111 @@
       "errors": "Prod Errors"
     }
   },
+  "logoCloud": {
+    "backedBy": "Backed by leaders and alumni from",
+    "supportedBy": "Supported by"
+  },
+  "testimonials": {
+    "badge": "Success Stories",
+    "title": "Results that",
+    "titleHighlight": "Speak for Themselves",
+    "subtitle": "Companies across industries are already running their Digital AI Workforce with Agentix.",
+    "disclaimer": "* Representative cases. Names are anonymized pending client authorization.",
+    "items": [
+      {
+        "quote": "We used to take an average of 4 minutes to respond to a WhatsApp lead. Today the agent responds in under 3 seconds, qualifies the lead and schedules the meeting automatically. Digital sales grew 38% in the first month.",
+        "metric": "+38%",
+        "metricLabel": "Digital sales in 30 days",
+        "name": "Carlos M.",
+        "role": "Chief Revenue Officer — Fintech Latin America",
+        "initials": "CM"
+      },
+      {
+        "quote": "We integrated the voice agent with our fleet management system. Drivers now receive optimized routes and maintenance alerts by phone call. We cut operational coordination time by 52%.",
+        "metric": "-52%",
+        "metricLabel": "Fleet coordination time reduced",
+        "name": "Paola R.",
+        "role": "COO — Regional Logistics Company",
+        "initials": "PR"
+      },
+      {
+        "quote": "Onboarding new physicians went from a week of paperwork and manual orientations to a fully guided process by the HR agent. We completed 200+ onboardings in Q4 without adding a single HR headcount.",
+        "metric": "200+",
+        "metricLabel": "Automated onboardings in one quarter",
+        "name": "Dr. Andrés V.",
+        "role": "CHRO — Private Healthcare Network",
+        "initials": "AV"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Everything you need",
+    "titleHighlight": "to Know",
+    "subtitle": "Direct answers to the questions CTOs and CEOs ask most before their first meeting with us.",
+    "items": [
+      {
+        "question": "How long does it take to deploy an AI agent to production?",
+        "answer": "It depends on complexity. A standard Omnichannel agent (WhatsApp + Web Chat) takes between 2 and 4 weeks from kick-off to production, including CRM integration, RAG memory configuration, and adversarial QA testing under the Ouroboros Protocol. More complex projects with IoT integrations or Multi-Agent orchestration typically take between 6 and 12 weeks."
+      },
+      {
+        "question": "What differentiates Agentix Vanguard from a chatbot agency?",
+        "answer": "Architecture. Chatbots are linear decision trees; our agents have persistent memory (RAG), multi-step reasoning, and the ability to autonomously execute actions in external systems (APIs, databases, IoT hardware). Additionally, the Ouroboros Protocol guarantees adversarial QA on every deployment, eliminating production errors."
+      },
+      {
+        "question": "Where is my data stored? Is it secure?",
+        "answer": "We operate on dedicated infrastructure within your cloud of choice (GCP, AWS, Azure). All data in transit is protected with TLS 1.3 and at rest with AES-256. We work under VPC isolated architecture with zero-trust network segmentation. We are SOC 2 Ready, meaning our practices meet the most demanding enterprise security standards."
+      },
+      {
+        "question": "Does it work in Spanish and English?",
+        "answer": "Yes. Our agents are natively multilingual. We use top-tier LLMs (Claude, GPT-4o, Gemini) with native understanding of 90+ languages. We also configure the agent's persona, tone, and vocabulary per language to guarantee brand consistency in each market."
+      },
+      {
+        "question": "How much does it cost to implement an Agentix Vanguard agent?",
+        "answer": "Projects start with a free Architecture Audit where we assess your specific use case. From there, engagements range from modular implementations (a single channel or function) to full agentic platforms. Costs vary based on complexity, integrations, and interaction volume. Schedule your audit to get a tailored estimate for your business."
+      },
+      {
+        "question": "Can I use my own models, or does it have to be a third-party LLM?",
+        "answer": "Completely flexible. We can deploy on foundation models from Anthropic, OpenAI, or Google, or integrate custom fine-tuned models deployed on Vertex AI, Amazon SageMaker, or Azure AI. The Ouroboros Protocol is model-agnostic by design, giving us resilience: if a provider raises prices or experiences downtime, the system automatically switches."
+      }
+    ]
+  },
+  "aiTech": {
+    "badge": "Engines & Orchestrators",
+    "title": "AI Technologies",
+    "titleHighlight": "We Master",
+    "subtitle": "We don't rely on a single black box. We architect on top of the world's most advanced LLMs and Frameworks to ensure true enterprise resilience.",
+    "items": [
+      {
+        "name": "Anthropic Claude",
+        "role": "Foundation Model",
+        "description": "Anthropic is pioneering safe, reliable AI prioritizing human values. Claude empowers enterprises to deploy conversational AI responsibly, balancing cutting-edge performance with rigorous safety guardrails at scale across business workflows."
+      },
+      {
+        "name": "OpenAI (GPT-4o)",
+        "role": "Foundation Model",
+        "description": "Revolutionizing AI with advanced multimodal models like GPT-4o. Their platform enables developers to integrate natural language generation seamlessly, driving agile innovation in complex automations."
+      },
+      {
+        "name": "Google Gemini",
+        "role": "Foundation Model",
+        "description": "Gemini combines multimodal intelligence and advanced reasoning natively in GCP. It helps organizations unlock deeper insights, adaptive learning, and unified data processing to accelerate real-time decision-making."
+      },
+      {
+        "name": "Microsoft Copilot Studio",
+        "role": "Enterprise AI Platform",
+        "description": "Embeds AI-driven assistance natively into corporate workflows and Azure infrastructure, transforming productivity with contextual suggestions, automated pipelines, and real-time analytics."
+      },
+      {
+        "name": "Microsoft AutoGen",
+        "role": "Multi-Agent Orchestrator",
+        "description": "Our core open-source framework for building and managing complex Multi-Agent workflows. It automates task coordination across different LLMs, creating unstoppable fully-autonomous operational 'Swarms'."
+      }
+    ]
+  },
   "nav": {
     "services": "Services",
+    "tech": "AI Technologies",
     "protocol": "Protocol",
     "stack": "Stack",
     "security": "Security",
@@ -27,22 +130,70 @@
     "explore": "Explore",
     "items": [
       {
-        "title": "Sales & Conversion Agents",
-        "subtitle": "Agent \"Luna\" — Autonomous Sales 24/7",
-        "description": "Agents like Luna handle DMs on Instagram and WhatsApp, check real availability in Aurora V2 databases, and close sales without human intervention. Intelligent conversion pipeline with automatic follow-up.",
-        "features": ["Instagram & WhatsApp DMs", "Real-time lookup (Aurora V2)", "Autonomous close 24/7", "Predictive follow-up"]
+        "title": "Omnichannel AI Agents",
+        "subtitle": "B2C & B2B Autonomous Presence 24/7",
+        "description": "Brand-identity agents with persistent memory (RAG). Proactively manage Instagram, WhatsApp, Facebook, Telegram, Slack, and Gmail. Powered by top-tier LLMs (Vertex AI Agent Builder, Agents for Bedrock, or Copilot Studio).",
+        "features": [
+          "IG, WA, FB & Telegram (B2C)",
+          "Slack & Gmail native (B2B)",
+          "Continuous Learning (RAG)",
+          "Brand Personality Setup"
+        ]
       },
       {
-        "title": "Ops & Workflow Automation",
-        "subtitle": "Industrial-Grade Automation",
-        "description": "End-to-end internal process automation, from HR to risk management. Native AWS Lambda integration with legacy systems to orchestrate complex flows with no single point of failure.",
-        "features": ["HR & Onboarding", "Risk management", "AWS Lambda integrated", "Legacy systems connected"]
+        "title": "AI Voice Agents & Telephony",
+        "subtitle": "Your Autonomous Call Center",
+        "description": "Deploy voice agents that handle customer phone inquiries, provide real-time troubleshooting, and seamlessly transfer to human operators when the situation requires it.",
+        "features": [
+          "24/7 Phone Answering",
+          "Troubleshooting & Booking",
+          "Human-in-the-loop handoff",
+          "Configurable voice identities"
+        ]
       },
       {
-        "title": "AI Architecture Consulting",
-        "subtitle": "AI System Design & Audit",
-        "description": "Computable specifications design and full audit of existing AI systems for companies scaling up. We turn fragile architectures into resilient infrastructure.",
-        "features": ["Computable specifications", "Existing AI audit", "Enterprise scalability", "Resilient architecture"]
+        "title": "AI-Driven Marketing Automation",
+        "subtitle": "Autonomous Marketing Execution",
+        "description": "Develop agents that perform automated marketing tasks without intervention: intelligent content creation, hyper-personalized email campaigns, and continuous lead nurturing to maximize conversions.",
+        "features": [
+          "AI content creation",
+          "Personalized Email Drops",
+          "Autonomous Lead Nurturing",
+          "Conversion optimization"
+        ]
+      },
+      {
+        "title": "AI Human Resources Management",
+        "subtitle": "Bionic Internal Support & Onboarding",
+        "description": "Build AI agents to guide new employees through immersive onboarding processes, act as a 24/7 HR Helpdesk for routine questions, and provide essential tools that enhance your team's overall productivity.",
+        "features": [
+          "Interactive Onboarding",
+          "24/7 HR Helpdesk",
+          "Employee Experience boost",
+          "Productivity tools"
+        ]
+      },
+      {
+        "title": "AI Risk & Security Compliance",
+        "subtitle": "Military-Grade Risk Management",
+        "description": "Implement AI agents that constantly monitor company activities for regulatory compliance. They detect anomalies, flag potential risks, and generate automated reports to drastically mitigate legal and operational liabilities.",
+        "features": [
+          "Compliance monitoring",
+          "Anomaly detection",
+          "Automated reporting",
+          "Legal risk mitigation"
+        ]
+      },
+      {
+        "title": "Autonomous IoT & Telematics",
+        "subtitle": "AI Connected to the Physical Edge",
+        "description": "We wire generative AI to advanced vehicle telemetry hardware (e.g. Teltonika FMC130). Intelligent remote engine shut-off, cold chain monitoring, predictive maintenance with automatic shop scheduling, and dynamic route optimization.",
+        "features": [
+          "Automatic Predictive Maintenance",
+          "Anti-theft Security (Engine Cut)",
+          "Cold Chain Management",
+          "Dynamic Route Optimization"
+        ]
       }
     ]
   },
@@ -54,24 +205,24 @@
     "cycleLabel": "Infinite Improvement Cycle",
     "steps": [
       {
-        "title": "Crystallization",
-        "subtitle": "Living Specifications",
-        "description": "Before writing a single line of code, we create computable specifications that act as verifiable contracts. The system knows exactly what it must do, with no ambiguity."
+        "title": "Living Specification",
+        "subtitle": "Top-Tier LLM Generation",
+        "description": "Architect-level AI models generate and validate computable specifications before a single line of code is written, acting as verifiable contracts."
       },
       {
-        "title": "Swarm",
-        "subtitle": "Parallel Development",
-        "description": "Specialized agents work in parallel on different system modules. Each agent is an expert in its domain, maximizing speed without sacrificing quality."
+        "title": "Development Swarm",
+        "subtitle": "Multi-Agent Construction",
+        "description": "Specialized agents (Backend, Frontend, Infra) build in parallel from the approved specification, maximizing speed and precision."
       },
       {
-        "title": "Adversarial Audit",
+        "title": "Adversarial QA",
         "subtitle": "Autonomous Red Teamer",
-        "description": "A \"Red Teamer\" agent systematically attacks every component before production. It finds vulnerabilities, edge cases, and failure points that no human team would catch in time."
+        "description": "A hostile agent systematically attacks every component with adversarial tests before production. It finds vulnerabilities no human team would catch in time."
       },
       {
-        "title": "Cognitive Memory",
-        "subtitle": "Continuous Learning",
-        "description": "The system learns from every interaction via RAG (Retrieval-Augmented Generation) and persistent logs. Each cycle makes the system smarter and more resilient."
+        "title": "Persistent Memory",
+        "subtitle": "Continuous RAG Context",
+        "description": "The system learns from every interaction using RAG-powered context for all agents. Lessons learned are automatically updated with each cycle."
       }
     ]
   },
@@ -81,12 +232,81 @@
     "titleHighlight": "Infrastructure",
     "subtitle": "Every component in our stack is chosen for maximum reliability, scalability, and performance.",
     "items": [
-      { "name": "Vertex AI", "subtitle": "Google Cloud", "description": "AI engine for inference, fine-tuning, and agent orchestration." },
-      { "name": "AWS Lambda", "subtitle": "Serverless", "description": "Serverless functions for event-driven execution with automatic scaling." },
-      { "name": "Aurora V2", "subtitle": "PostgreSQL", "description": "High-availability relational database with microsecond reads." },
-      { "name": "React Native", "subtitle": "Mobile", "description": "High-performance native mobile interface development." },
-      { "name": "Node.js", "subtitle": "Backend", "description": "Runtime for low-latency microservices and real-time APIs." },
-      { "name": "RAG Pipeline", "subtitle": "Cognitive Memory", "description": "Retrieval-Augmented Generation for dynamic context and continuous learning." }
+      {
+        "name": "Vertex AI",
+        "subtitle": "Google Cloud",
+        "description": "AI engine for inference, fine-tuning, and agent orchestration."
+      },
+      {
+        "name": "Azure AI Foundry",
+        "subtitle": "Microsoft Azure",
+        "description": "Comprehensive platform to explore, build, and manage generative AI solutions."
+      },
+      {
+        "name": "Amazon SageMaker",
+        "subtitle": "AWS ML",
+        "description": "Build, train, and deploy machine learning models at scale."
+      },
+      {
+        "name": "Amazon Bedrock",
+        "subtitle": "AWS Generative AI",
+        "description": "Access to leading foundational models and generative AI tools."
+      },
+      {
+        "name": "AWS Lambda",
+        "subtitle": "AWS Serverless",
+        "description": "Serverless functions for event-driven execution with automatic scaling."
+      },
+      {
+        "name": "Azure Functions",
+        "subtitle": "Microsoft Azure",
+        "description": "Serverless compute to run event-driven code at scale with minimal infrastructure."
+      },
+      {
+        "name": "Cloud Functions",
+        "subtitle": "Google Cloud",
+        "description": "Serverless execution environment to build and connect cloud services."
+      },
+      {
+        "name": "Aurora V2",
+        "subtitle": "AWS PostgreSQL",
+        "description": "High-availability relational database with microsecond reads."
+      },
+      {
+        "name": "AlloyDB AI",
+        "subtitle": "Google Cloud",
+        "description": "PostgreSQL-compatible database with built-in AI and vector support for generative AI workloads."
+      },
+      {
+        "name": "Azure Cosmos DB for PostgreSQL",
+        "subtitle": "Microsoft Azure",
+        "description": "Distributed PostgreSQL with horizontal scaling and global distribution for cloud-native apps."
+      },
+      {
+        "name": "React",
+        "subtitle": "Web",
+        "description": "Library for building fast, composable user interfaces and single-page applications."
+      },
+      {
+        "name": "React Native",
+        "subtitle": "Mobile",
+        "description": "High-performance native mobile interface development."
+      },
+      {
+        "name": "Node.js",
+        "subtitle": "Backend",
+        "description": "Runtime for low-latency microservices and real-time APIs."
+      },
+      {
+        "name": "Python",
+        "subtitle": "Backend & ML",
+        "description": "Language for data pipelines, ML models, automation, and backend services."
+      },
+      {
+        "name": "RAG Pipeline",
+        "subtitle": "Cognitive Memory",
+        "description": "Retrieval-Augmented Generation for dynamic context and continuous learning."
+      }
     ]
   },
   "trust": {
@@ -97,12 +317,30 @@
     "banner": "Ouroboros Protocol includes Adversarial QA on every deployment. Zero production errors isn't a promise — it's an architectural guarantee.",
     "bannerHighlight": "Zero errors in production",
     "items": [
-      { "title": "End-to-End Encryption", "description": "Data in transit and at rest protected with AES-256 and TLS 1.3." },
-      { "title": "Continuous Auditing", "description": "Immutable logs of every agent action for full compliance." },
-      { "title": "Isolated Infrastructure", "description": "Dedicated VPC with zero-trust networking and network segmentation." },
-      { "title": "Minimal Latency", "description": "Edge computing with global CDN for sub-50ms responses." },
-      { "title": "SOC 2 Ready", "description": "Architecture designed to meet the most demanding standards." },
-      { "title": "99.99% Availability", "description": "Multi-AZ with automatic failover and disaster recovery." }
+      {
+        "title": "End-to-End Encryption",
+        "description": "Data in transit and at rest protected with AES-256 and TLS 1.3."
+      },
+      {
+        "title": "Continuous Auditing",
+        "description": "Immutable logs of every agent action for full compliance."
+      },
+      {
+        "title": "Isolated Infrastructure",
+        "description": "Dedicated VPC with zero-trust networking and network segmentation."
+      },
+      {
+        "title": "Minimal Latency",
+        "description": "Edge computing with global CDN for sub-50ms responses."
+      },
+      {
+        "title": "SOC 2 Ready",
+        "description": "Architecture designed to meet the most demanding standards."
+      },
+      {
+        "title": "99.99% Availability",
+        "description": "Multi-AZ with automatic failover and disaster recovery."
+      }
     ]
   },
   "cta": {
@@ -114,12 +352,54 @@
     "button": "Schedule Your Free Audit",
     "disclaimer": "No commitment · Response within 24h"
   },
+  "blog": {
+    "badge": "Insights & Future",
+    "title": "Architecture &",
+    "titleHighlight": "Intelligence",
+    "subtitle": "Deep dives into the impact of autonomous agents on modern enterprise infrastructure.",
+    "readMore": "Read more",
+    "items": [
+      {
+        "date": "Feb 15, 2026",
+        "tag": "Strategy",
+        "title": "AI Agent ROI: Measuring the value of autonomy",
+        "description": "Go beyond response times. An analysis of how persistent memory reduces operational costs over time."
+      },
+      {
+        "date": "Feb 10, 2026",
+        "tag": "Technical",
+        "title": "Swarms vs. Chatbots: The era of Multi-Agent orchestration",
+        "description": "Why the future isn't a chat window, but an ecosystem of specialized agents working in parallel."
+      },
+      {
+        "date": "Feb 05, 2026",
+        "tag": "Security",
+        "title": "Ouroboros Protocol: Shielding AI against adversarial attacks",
+        "description": "Our QA methodology for ensuring language models operate under secure, deterministic logic."
+      }
+    ]
+  },
   "footer": {
-    "services": "Services",
-    "protocol": "Protocol",
-    "stack": "Stack",
-    "security": "Security",
-    "contact": "Contact",
+    "tagline": "AI agent engineering with deterministic logic and persistent memory for the Enterprise sector.",
+    "columns": {
+      "resources": {
+        "title": "Resources",
+        "docs": "Documentation",
+        "status": "System Status",
+        "support": "Technical Support"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "cookies": "Cookies"
+      },
+      "social": {
+        "title": "Social",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter / X"
+      }
+    },
     "copyright": "© 2026 Agentix Vanguard. All rights reserved."
   },
   "notFound": {

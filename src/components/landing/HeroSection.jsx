@@ -108,7 +108,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#050a18] via-[#0a1628] to-[#050a18]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,229,255,0.08)_0%,transparent_70%)]" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(168,85,247,0.12)_0%,transparent_60%)] blur-3xl" />
-      
+
       <NeuralCanvas />
 
       {/* Decorative grid */}
@@ -170,6 +170,7 @@ export default function HeroSection() {
         >
           <Button
             size="lg"
+            onClick={() => window.open("https://calendly.com/agentixvanguard/architecture-audit", "_blank")}
             className="relative group px-8 py-6 text-base font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white rounded-xl shadow-[0_0_40px_rgba(0,229,255,0.3)] hover:shadow-[0_0_60px_rgba(0,229,255,0.5)] transition-all duration-500"
           >
             <span className="relative z-10 flex items-center gap-2">
