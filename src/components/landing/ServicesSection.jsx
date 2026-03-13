@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MessageSquare, Headset, Megaphone, Users, ShieldAlert, Cpu, ArrowRight, Shield } from "lucide-react";
+import { buildServiceCatalog } from "@/data/serviceCatalog";
 
 const serviceStyles = [
   { icon: MessageSquare, accent: "from-cyan-400 to-blue-500", glowColor: "rgba(0,229,255,0.15)", borderColor: "border-cyan-500/20" },
@@ -25,8 +27,8 @@ const cardVariants = {
 };
 
 export default function ServicesSection() {
-  const { t } = useTranslation();
-  const items = t('services.items', { returnObjects: true });
+  const { t, i18n } = useTranslation();
+  const items = buildServiceCatalog(t, i18n.language);
   return (
     <section className="relative py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-[#050a18]" />
@@ -105,10 +107,13 @@ export default function ServicesSection() {
                     ))}
                   </ul>
 
-                  <button className="flex items-center gap-2 text-sm font-medium text-slate-400 group-hover:text-cyan-400 transition-colors">
+                  <Link
+                    to={`/services/${item.slug}`}
+                    className="inline-flex items-center gap-2 text-sm font-medium text-slate-400 group-hover:text-cyan-400 transition-colors"
+                  >
                     {t('services.explore')}
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
             );

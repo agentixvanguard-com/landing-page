@@ -1,7 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Newspaper, Calendar, ArrowRight } from "lucide-react";
+
+const blogSlugs = [
+    "ai-agent-roi-measuring-autonomy",
+    "swarms-vs-chatbots-multi-agent-era",
+    "ouroboros-protocol-adversarial-ai-security",
+];
 
 const containerVariants = {
     hidden: {},
@@ -84,10 +91,13 @@ export default function BlogSection() {
                                 </p>
 
                                 {/* Action */}
-                                <button className="inline-flex items-center gap-2 text-sm font-semibold text-white group-hover:gap-3 transition-all">
+                                <Link
+                                    to={`/blog/${blogSlugs[i] || `post-${i + 1}`}`}
+                                    className="inline-flex items-center gap-2 text-sm font-semibold text-white group-hover:gap-3 transition-all"
+                                >
                                     {t("blog.readMore")}
                                     <ArrowRight className="w-4 h-4 text-purple-500" />
-                                </button>
+                                </Link>
                             </motion.article>
                         ))}
                 </motion.div>

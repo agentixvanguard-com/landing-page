@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
 import LogoCloudSection from "@/components/landing/LogoCloudSection";
+import ProductTiersSection from "@/components/landing/ProductTiersSection";
+import ArchAISection from "@/components/landing/ArchAISection";
 import ServicesSection from "@/components/landing/ServicesSection";
 import AITechSection from "@/components/landing/AITechSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
@@ -19,6 +21,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <LogoCloudSection />
+      <ProductTiersSection />
+      <ArchAISection />
       <div id="servicios">
         <ServicesSection />
       </div>

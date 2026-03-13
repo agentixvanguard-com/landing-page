@@ -69,6 +69,14 @@ const TechLogo = ({ name }) => {
                     </div>
                 </div>
             );
+        case "Agentic Skills Framework & Hybrid RAG (Vector + Neo4j)":
+            return (
+                <div className="flex justify-center items-center h-16 mb-6">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-white text-sm tracking-tight" role="img" aria-label="Agentic Skills Framework Logo">
+                        AS
+                    </div>
+                </div>
+            );
         default:
             return null;
     }

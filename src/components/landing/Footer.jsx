@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter, ExternalLink } from "lucide-react";
 
@@ -35,14 +36,24 @@ export default function Footer() {
               {t('footer.columns.resources.title')}
             </h4>
             <ul className="space-y-4">
-              {['docs', 'status', 'support'].map((item) => (
-                <li key={item}>
-                  <button className="flex items-center gap-1.5 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
-                    {t(`footer.columns.resources.${item}`)}
-                    <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </button>
-                </li>
-              ))}
+              <li>
+                <Link to="/docs" className="flex items-center gap-1.5 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.resources.docs')}
+                  <ExternalLink className="w-3 h-3" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/status" className="flex items-center gap-1.5 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.resources.status')}
+                  <ExternalLink className="w-3 h-3" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/support" className="flex items-center gap-1.5 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.resources.support')}
+                  <ExternalLink className="w-3 h-3" />
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -52,13 +63,21 @@ export default function Footer() {
               {t('footer.columns.legal.title')}
             </h4>
             <ul className="space-y-4">
-              {['privacy', 'terms', 'cookies'].map((item) => (
-                <li key={item}>
-                  <button className="text-sm text-slate-500 hover:text-cyan-400 transition-colors">
-                    {t(`footer.columns.legal.${item}`)}
-                  </button>
-                </li>
-              ))}
+              <li>
+                <Link to="/privacy" className="text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.legal.privacy')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms" className="text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.legal.terms')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/cookies" className="text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  {t('footer.columns.legal.cookies')}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -68,18 +87,24 @@ export default function Footer() {
               {t('footer.columns.social.title')}
             </h4>
             <div className="flex gap-4">
-              <button
+              <a
+                href="https://www.linkedin.com/company/agentixvanguard"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.linkedin')}
                 className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all duration-300"
               >
                 <Linkedin className="w-5 h-5" />
-              </button>
-              <button
+              </a>
+              <a
+                href="https://x.com/agentixvanguard"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.twitter')}
                 className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all duration-300"
               >
                 <Twitter className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
