@@ -1,9 +1,71 @@
 {
+  "productTiers": {
+    "badge": "Our Solutions",
+    "title": "Your Platform. Two Tiers. One ",
+    "titleHighlight": "Intelligent Unified Brain.",
+    "subtitle": "Cloud-Based Agentic AI for fast onboarding. Edge Pro for tactical response. Both powered by proprietary Agentic Skills and Hybrid RAG.",
+    "tiers": {
+      "cloud": {
+        "name": "Cloud-Based Agentic AI",
+        "tagline": "Gama Básica - Autonomous cloud workflows",
+        "description": "Autonomous workflows with Hybrid RAG-assisted reasoning in the cloud. Designed for SMEs and route control. Reactive intelligence: decisions after cloud ingestion.",
+        "features": ["Hybrid RAG context (Vector + Graph)", "Cloud orchestration with proprietary Skills", "Fast entry model for lower budgets", "100% cellular-dependent intelligence"]
+      },
+      "edge": {
+        "name": "Edge Pro AI",
+        "tagline": "Gama Alta - NPU + native IoT Edge",
+        "description": "On-device decisions with NPU hardware, SLMs, and edge gateways. Ideal for critical security and high-value operations. Proactive intelligence in milliseconds.",
+        "features": ["NPU/AI chip + local SLM inference", "MQTT stream processing and offline operation", "AWS IoT Greengrass / Azure IoT Edge", "Ultra-low latency intervention"]
+      }
+    },
+    "tableRows": [
+      {"feature": "Hardware", "cloud": "Standard GPS (low-cost)", "edge": "NPU / AI Chip device"},
+      {"feature": "Intelligence", "cloud": "Standard Vector RAG", "edge": "Hybrid Graph + Vector RAG"},
+      {"feature": "Connectivity", "cloud": "Cloud API", "edge": "Edge MQTT"},
+      {"feature": "Latency", "cloud": "Reactive cloud latency", "edge": "Near real-time on-device"},
+      {"feature": "Cost model", "cloud": "Higher OPEX (cloud + data)", "edge": "Initial CAPEX, lower monthly cloud cost"}
+    ],
+    "tableHeader": {"feature": "Feature", "cloud": "Cloud-Based", "edge": "Edge Pro"},
+    "openclawLabels": {"cloud": "Cloud Intelligence", "edge": "Edge Intelligence"},
+    "openclaw": {
+      "title": "Agentic Skills & Hybrid Intelligence",
+      "description": "Our proprietary Agentic Skills reason with semantic similarity and relational context. Vector retrieval answers fast document questions; GraphRAG on Neo4j connects causal dependencies.",
+      "cloudUse": "Vector RAG retrieves enterprise text context quickly for high-volume autonomous workflows.",
+      "edgeUse": "GraphRAG + Skills execute context-aware actions over live MQTT telemetry for critical edge scenarios."
+    },
+    "ctaText": "Start in cloud to accelerate adoption. Scale to Edge Pro when your operation needs real-time tactical autonomy.",
+    "ctaButton": "Schedule Your Architecture Audit"
+  },
+  "archAI": {
+    "badge": "Intelligence Architecture",
+    "title": "Hybrid RAG & ",
+    "titleHighlight": "Edge AI",
+    "subtitle": "Vector speed + graph depth + proprietary Agentic Skills. A cloud-edge stack designed for decisions that require both meaning and relationships.",
+    "hybridTitle": "Hybrid RAG (Vector + Neo4j GraphRAG)",
+    "hybridDescription": "Vector retrieval handles large unstructured corpora quickly. GraphRAG captures formal dependencies that vector-only systems miss, such as actor-machine-event causal chains.",
+    "skillsTitle": "Agentic Skills Framework (Proprietary)",
+    "skillsDescription": "A fully governed modular skill runtime owned by Agentix Vanguard. No external automation intermediary. Deterministic execution with enterprise policy control.",
+    "patternTitle": "Cloud-Edge Autonomy Pattern",
+    "flow": {
+      "intent": "User Intent",
+      "hybridRag": "Hybrid RAG Context",
+      "cloud": "Cloud Multi-Agent Orchestrator",
+      "mqtt": "MQTT Stream",
+      "edge": "Edge Execution"
+    },
+    "infrastructureTitle": "Native Cloud and IoT Infrastructure",
+    "infrastructureDescription": "Deployable on AWS IoT Greengrass, Azure IoT Edge, and GCP environments with the same Agentic Skills and Hybrid RAG architecture.",
+    "infrastructurePoints": {
+      "1": "Edge gateways connected via MQTT for low-latency telemetry actions",
+      "2": "Cloud reasoning layer enriched with vector and graph memory",
+      "3": "Unified dashboard and ERP experience through El Cerebro Unico"
+    }
+  },
   "hero": {
-    "badge": "Industrial-Grade Agent Engineering",
-    "title": "The Evolution of",
-    "titleHighlight": "Enterprise Autonomy",
-    "subtitle": "We build AI agents with <1>persistent memory</1> and <1>deterministic logic</1>. Powered by Vertex AI, Azure AI Foundry, Amazon Bedrock and protected by the <2>Ouroboros Protocol</2>.",
+    "badge": "Leading the Era of Agentic AI, Hybrid RAG and Edge IoT",
+    "title": "Leading the Era of",
+    "titleHighlight": "Agentic AI & Hybrid Intelligence",
+    "subtitle": "We build <1>Autonomous Multi-Agent Systems</1> with <1>Hybrid RAG (Vector + Graph)</1> and <2>Edge IoT execution</2>. Powered by proprietary Agentic Skills with deterministic governance.",
     "ctaAudit": "Schedule an Architecture Audit",
     "ctaDemo": "View Demo",
     "stats": {
@@ -78,6 +140,14 @@
       {
         "question": "Can I use my own models, or does it have to be a third-party LLM?",
         "answer": "Completely flexible. We can deploy on foundation models from Anthropic, OpenAI, or Google, or integrate custom fine-tuned models deployed on Vertex AI, Amazon SageMaker, or Azure AI. The Ouroboros Protocol is model-agnostic by design, giving us resilience: if a provider raises prices or experiences downtime, the system automatically switches."
+      },
+      {
+        "question": "Why do we combine Vector RAG and GraphRAG (Neo4j) in our solutions?",
+        "answer": "Vector RAG is excellent for fast retrieval over large unstructured documents. GraphRAG (Neo4j) adds relational intelligence, connecting entities, events, and causal dependencies that vector-only retrieval may miss. Hybrid RAG gives both speed and deep contextual reasoning."
+      },
+      {
+        "question": "How do you deploy agents on my IoT hardware (AWS/Azure) and what are Agentic Skills?",
+        "answer": "We deploy through native edge stacks such as AWS IoT Greengrass and Azure IoT Edge, with MQTT streams for low-latency event processing. Agentic Skills are our proprietary modular runtime that executes governed actions across cloud and edge with deterministic behavior and enterprise controls."
       }
     ]
   },
@@ -111,6 +181,11 @@
         "name": "Microsoft AutoGen",
         "role": "Multi-Agent Orchestrator",
         "description": "Our core open-source framework for building and managing complex Multi-Agent workflows. It automates task coordination across different LLMs, creating unstoppable fully-autonomous operational 'Swarms'."
+      },
+      {
+        "name": "Agentic Skills Framework & Hybrid RAG (Vector + Neo4j)",
+        "role": "Proprietary Intelligence Runtime",
+        "description": "Agentic Skills Framework & Hybrid RAG (Vector + Neo4j). Combined semantic and relational intelligence that understands both what happened and why it happened."
       }
     ]
   },
@@ -186,13 +261,13 @@
       },
       {
         "title": "Autonomous IoT & Telematics",
-        "subtitle": "AI Connected to the Physical Edge",
-        "description": "We wire generative AI to advanced vehicle telemetry hardware (e.g. Teltonika FMC130). Intelligent remote engine shut-off, cold chain monitoring, predictive maintenance with automatic shop scheduling, and dynamic route optimization.",
+        "subtitle": "Agentic Skills over Native IoT Edge",
+        "description": "We connect proprietary Agentic Skills to advanced telemetry hardware (e.g. Teltonika FMC130) through MQTT, AWS IoT Greengrass, and Azure IoT Edge. Real-time decisions for engine cut-off, cold chain monitoring, and predictive maintenance.",
         "features": [
-          "Automatic Predictive Maintenance",
-          "Anti-theft Security (Engine Cut)",
-          "Cold Chain Management",
-          "Dynamic Route Optimization"
+          "MQTT event streams and telemetry control",
+          "AWS IoT Greengrass / Azure IoT Edge support",
+          "Hybrid RAG context for route and incident reasoning",
+          "Anti-theft, Cold Chain, Predictive Maintenance"
         ]
       }
     ]
@@ -401,6 +476,99 @@
       }
     },
     "copyright": "© 2026 Agentix Vanguard. All rights reserved."
+  },
+  "legal": {
+    "backToHome": "Back to Home",
+    "terms": {
+      "title": "Terms and Conditions",
+      "lastUpdated": "Last updated: February 2026",
+      "contact": "For questions about these Terms, contact us at legal@agentixvanguard.com",
+      "sections": [
+        {
+          "title": "1. Acceptance of Terms",
+          "paragraphs": [
+            "By accessing or using the Agentix Vanguard platform, website, APIs, and related services (\"Services\"), you agree to be bound by these Terms and Conditions. If you are using the Services on behalf of an organization, you represent that you have authority to bind that organization to these Terms."
+          ]
+        },
+        {
+          "title": "2. Autonomy, Hybrid RAG and AI Hallucinations",
+          "paragraphs": [
+            "Agentix Vanguard provides AI agents that execute autonomous workflows through proprietary Agentic Skills and Hybrid RAG (Vector retrieval plus GraphRAG). These systems are assistance tools, and the account operator remains responsible for validating outputs.",
+            "AI models may produce inaccurate, biased, or inappropriate outputs (\"AI hallucinations\"). For financial, safety-critical, or regulatory actions, Human-in-the-Loop (HITL) validation is required. Services are provided \"as is\" without warranties."
+          ]
+        },
+        {
+          "title": "3. Hybrid Infrastructure and Third-Party Governance",
+          "paragraphs": [
+            "Our Services may be deployed on AWS IoT Greengrass, Azure IoT Edge, and GCP environments, and may integrate with third-party APIs (Meta/WhatsApp, OpenAI, Anthropic, Google). You must comply with all third-party terms. Violations can result in immediate revocation of access."
+          ]
+        },
+        {
+          "title": "4. Intellectual Property",
+          "paragraphs": [
+            "Agentix Vanguard retains rights to platform technology, proprietary Agentic Skills runtime, and orchestration logic. Ownership of graph ontologies and telemetry data is allocated by customer agreement. You retain ownership of your uploaded data and grant us a limited processing license to operate the Services."
+          ]
+        },
+        {
+          "title": "5. Acceptable Use",
+          "paragraphs": [
+            "You agree not to use the Services to generate spam, hate content, or engage in illegal activities. You will not use the Services in any way that violates the Acceptable Use policies of Meta, OpenAI, Anthropic, or other providers whose APIs we use. Violation of this section will result in immediate suspension or termination."
+          ]
+        },
+        {
+          "title": "6. Limitation of Liability",
+          "paragraphs": [
+            "To the fullest extent permitted by law, Agentix Vanguard shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Services. Our total liability shall not exceed the amount you paid to us in the twelve (12) months preceding the claim."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: February 2026",
+      "contact": "To exercise your GDPR/CCPA rights (access, rectification, deletion, portability), contact us at privacy@agentixvanguard.com. We will respond within 30 days.",
+      "sections": [
+        {
+          "title": "1. Data We Collect",
+          "paragraphs": [
+            "We collect: names, email addresses, IP addresses, device information, and conversation logs (inputs and outputs from AI agents). We also collect technical data such as timestamps, usage patterns, and logs necessary for service operation and abuse prevention."
+          ]
+        },
+        {
+          "title": "2. Third-Party Processors (Sub-processors)",
+          "paragraphs": [
+            "Your data may be processed by infrastructure and AI providers. We use: AWS, Azure, and Google Cloud for hosting; OpenAI, Anthropic, and Google (Vertex AI) for language models. Data sent via API to these providers is not used for model training under our enterprise agreements. Below is a summary of key sub-processors:"
+          ],
+          "table": {
+            "headers": ["Provider", "Purpose", "Data Location", "Training on API Data?"],
+            "rows": [
+              ["OpenAI", "LLM inference", "US (DPF certified)", "No"],
+              ["Anthropic", "LLM inference", "US", "No"],
+              ["Google Vertex AI", "LLM inference, RAG", "US / EU option", "No"],
+              ["AWS / Azure / GCP", "Infrastructure", "Configurable", "N/A"]
+            ]
+          }
+        },
+        {
+          "title": "3. Edge AI, Graph Memory and On-Device Processing",
+          "paragraphs": [
+            "For Edge Pro deployments, critical telemetry may be processed locally on-device or through edge runtimes (e.g., AWS IoT Greengrass). Hybrid graph representations can be pseudonymized and synchronized with cloud services only when operationally required."
+          ]
+        },
+        {
+          "title": "4. Your Rights (GDPR / CCPA)",
+          "paragraphs": [
+            "Regardless of your location, you have the right to: access your personal data, request rectification, request deletion, request data portability, and object to processing. If you are in the EU/EEA or California, these rights apply under GDPR and CCPA. Contact us at privacy@agentixvanguard.com to exercise these rights. We will respond within 30 days."
+          ]
+        },
+        {
+          "title": "5. Data Retention",
+          "paragraphs": [
+            "AI provider logs are typically retained for 30 days for abuse detection. We retain your account and usage data as necessary to provide the Services and comply with legal obligations. Enterprise customers may request zero-data-retention options where available."
+          ]
+        }
+      ]
+    }
   },
   "notFound": {
     "title": "Page Not Found",
