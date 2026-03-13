@@ -491,10 +491,10 @@
           ]
         },
         {
-          "title": "2. Autonomía, Hybrid RAG y Alucinaciones de IA",
+          "title": "2. Autonomía, Modalidad SaaS y Alucinaciones de IA",
           "paragraphs": [
-            "Agentix Vanguard proporciona agentes que ejecutan flujos autónomos mediante Agentic Skills propietarias y Hybrid RAG (recuperación vectorial + GraphRAG). Estos sistemas son herramientas de asistencia y el operador de la cuenta mantiene la responsabilidad de validar resultados.",
-            "Los modelos de IA pueden producir resultados inexactos, sesgados o inapropiados (\"alucinaciones\"). Para acciones financieras, de seguridad crítica o regulatorias se exige validación Human-in-the-Loop (HITL). Los Servicios se prestan \"tal cual\", sin garantías."
+            "El software y los servicios SaaS se entregan 'AS IS' (tal cual y según disponibilidad), sin garantías implícitas de comerciabilidad o de funcionamiento ininterrumpido o libre de errores. Agentix Vanguard proporciona agentes que ejecutan flujos autónomos mediante Agentic Skills propietarias y Hybrid RAG. Estos sistemas son herramientas de asistencia y el operador de la cuenta mantiene la responsabilidad de validar resultados.",
+            "Los modelos de IA pueden producir resultados inexactos o sesgados (\"alucinaciones\"). Para acciones financieras, de seguridad crítica o regulatorias se exige validación Human-in-the-Loop (HITL)."
           ]
         },
         {
@@ -516,9 +516,21 @@
           ]
         },
         {
-          "title": "6. Limitación de Responsabilidad",
+          "title": "6. Limitación de Responsabilidad General",
           "paragraphs": [
             "En la máxima medida permitida por la ley, Agentix Vanguard no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso de los Servicios. Nuestra responsabilidad total no excederá el monto que usted nos pagó en los doce (12) meses anteriores al reclamo."
+          ]
+        },
+        {
+          "title": "7. Responsabilidad por Hardware IoT y Control de Accesos",
+          "paragraphs": [
+            "LIMITACIÓN DE RESPONSABILIDAD: El Cliente acepta que los servicios de Agentix Vanguard pueden incluir la interacción con infraestructura física preexistente mediante dispositivos edge (ej. validadores automáticos, cámaras Jetson para lectura de placas, motores y talanqueras). AgentixVanguard LLC y sus filiales (incluyendo Agentix Vanguard S.A.S.) no serán responsables por: (i) Fallos técnicos, eléctricos o de software de terceros que impidan el acceso o salida; (ii) Daños mecánicos en los sistemas de apertura derivados de la integración con nuestros controladores; (iii) Perjuicios económicos o reclamaciones por retrasos o bloqueos. Es obligación del Cliente mantener un protocolo de apertura manual de emergencia operativo en todo momento."
+          ]
+        },
+        {
+          "title": "8. Jurisdicción y Ley Aplicable",
+          "paragraphs": [
+            "Estos Términos se rigen por las leyes del Estado de Florida, EE. UU. (sede de AgentixVanguard LLC). Sin embargo, para las operaciones físicas desplegadas en territorio colombiano a través de nuestra filial (Agentix Vanguard S.A.S.), el tratamiento de datos personales y obligaciones regulatorias locales se ajustarán estrictamente a la Ley 1581 de 2012 de Colombia."
           ]
         }
       ]
@@ -529,9 +541,10 @@
       "contact": "Para ejercer sus derechos GDPR/CCPA (acceso, rectificación, eliminación, portabilidad), contáctenos en privacy@agentixvanguard.com. Responderemos en un plazo de 30 días.",
       "sections": [
         {
-          "title": "1. Datos que Recolectamos",
+          "title": "1. Datos que Recolectamos y Aviso de Cookies",
           "paragraphs": [
-            "Recolectamos: nombres, correos electrónicos, direcciones IP, información del dispositivo y logs de conversación (entradas y salidas de los agentes de IA). También recolectamos datos técnicos como timestamps, patrones de uso y logs necesarios para la operación del servicio y la prevención de abusos."
+            "Recolectamos: nombres, correos electrónicos, direcciones IP, información del dispositivo y logs de conversación (entradas y salidas de los agentes de IA). También recolectamos datos técnicos como timestamps.",
+            "USO DE COOKIES Y TRACKING: Utilizamos cookies técnicas e identificadores de rastreo, así como servicios de analítica de AWS y Google Cloud, para monitorear el rendimiento de la plataforma, medir el tráfico y mejorar la experiencia de usuario. Al utilizar nuestros Servicios, acepta el uso de estas tecnologías estándar."
           ]
         },
         {
@@ -556,9 +569,10 @@
           ]
         },
         {
-          "title": "4. Sus Derechos (GDPR / CCPA)",
+          "title": "4. Sus Derechos y Eliminación de Datos (Ley 1581)",
           "paragraphs": [
-            "Independientemente de su ubicación, tiene derecho a: acceder a sus datos personales, solicitar rectificación, solicitar eliminación, solicitar portabilidad de datos y oponerse al procesamiento. Si está en la UE/EEE o California, estos derechos aplican bajo GDPR y CCPA. Contáctenos en privacy@agentixvanguard.com para ejercer estos derechos. Responderemos en un plazo de 30 días."
+            "Independientemente de su ubicación, tiene derecho a acceder a sus datos personales, solicitar rectificación, eliminación y portabilidad. Si está en la UE/EEE o California, aplican GDPR y CCPA. Si está en Colombia, aplican sus derechos bajo la Ley 1581 de 2012.",
+            "CONTACTO Y ELIMINACIÓN DE DATOS FÍSICOS: Si usted es un usuario final y desea solicitar la rectificación, anonimización o eliminación de cualquier dato personal capturado por nuestros sistemas físicos (incluyendo registros de acceso o fotografías de placas de vehículos procesadas por dispositivos Jetson en conjuntos residenciales y otros lugares), debe enviar su solicitud formal a privacy@agentixvanguard.com. Responderemos a todas las solicitudes legítimas dentro de los plazos legales establecidos."
           ]
         },
         {

@@ -491,10 +491,10 @@
           ]
         },
         {
-          "title": "2. Autonomy, Hybrid RAG and AI Hallucinations",
+          "title": "2. Autonomy, SaaS Model, and AI Hallucinations",
           "paragraphs": [
-            "Agentix Vanguard provides AI agents that execute autonomous workflows through proprietary Agentic Skills and Hybrid RAG (Vector retrieval plus GraphRAG). These systems are assistance tools, and the account operator remains responsible for validating outputs.",
-            "AI models may produce inaccurate, biased, or inappropriate outputs (\"AI hallucinations\"). For financial, safety-critical, or regulatory actions, Human-in-the-Loop (HITL) validation is required. Services are provided \"as is\" without warranties."
+            "Software and SaaS services are delivered 'AS IS' (as is and as available), without implied warranties of merchantability, or uninterrupted or error-free operation. Agentix Vanguard provides AI agents that execute autonomous workflows through proprietary Agentic Skills and Hybrid RAG. These systems are assistance tools, and the account operator remains responsible for validating outputs.",
+            "AI models may produce inaccurate or biased outputs (\"AI hallucinations\"). For financial, safety-critical, or regulatory actions, Human-in-the-Loop (HITL) validation is required."
           ]
         },
         {
@@ -516,9 +516,21 @@
           ]
         },
         {
-          "title": "6. Limitation of Liability",
+          "title": "6. General Limitation of Liability",
           "paragraphs": [
             "To the fullest extent permitted by law, Agentix Vanguard shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Services. Our total liability shall not exceed the amount you paid to us in the twelve (12) months preceding the claim."
+          ]
+        },
+        {
+          "title": "7. Hardware IoT and Access Control Liability",
+          "paragraphs": [
+            "LIMITATION OF LIABILITY: The Client accepts that Agentix Vanguard services may include interaction with pre-existing physical infrastructure through edge devices (e.g., automatic validators, Jetson cameras for license plate reading, motors, and barrier gates). AgentixVanguard LLC and its subsidiaries (including Agentix Vanguard S.A.S.) shall not be liable for: (i) Technical, electrical, or third-party software failures preventing access or exit; (ii) Mechanical damage to opening systems derived from integration with our controllers; (iii) Economic losses or third-party claims arising from delays or blockades. It is the Client's obligation to maintain an operational manual emergency opening protocol at all times."
+          ]
+        },
+        {
+          "title": "8. Jurisdiction and Governing Law",
+          "paragraphs": [
+            "These Terms are governed by the laws of the State of Florida, USA (headquarters of AgentixVanguard LLC). However, for physical operations deployed in Colombian territory through our subsidiary (Agentix Vanguard S.A.S.), the processing of personal data and local regulatory obligations will strictly comply with Law 1581 of 2012 of Colombia."
           ]
         }
       ]
@@ -529,9 +541,10 @@
       "contact": "To exercise your GDPR/CCPA rights (access, rectification, deletion, portability), contact us at privacy@agentixvanguard.com. We will respond within 30 days.",
       "sections": [
         {
-          "title": "1. Data We Collect",
+          "title": "1. Data We Collect and Cookie Notice",
           "paragraphs": [
-            "We collect: names, email addresses, IP addresses, device information, and conversation logs (inputs and outputs from AI agents). We also collect technical data such as timestamps, usage patterns, and logs necessary for service operation and abuse prevention."
+            "We collect: names, email addresses, IP addresses, device information, and conversation logs (inputs and outputs from AI agents). We also collect technical data such as timestamps.",
+            "COOKIES AND TRACKING USE: We use technical cookies and tracking identifiers, as well as AWS and Google Cloud analytics services, to monitor platform performance, measure traffic, and improve the user experience. By using our Services, you consent to the use of these standard technologies."
           ]
         },
         {
@@ -556,9 +569,10 @@
           ]
         },
         {
-          "title": "4. Your Rights (GDPR / CCPA)",
+          "title": "4. Your Rights and Data Deletion (Law 1581)",
           "paragraphs": [
-            "Regardless of your location, you have the right to: access your personal data, request rectification, request deletion, request data portability, and object to processing. If you are in the EU/EEA or California, these rights apply under GDPR and CCPA. Contact us at privacy@agentixvanguard.com to exercise these rights. We will respond within 30 days."
+            "Regardless of your location, you have the right to access your personal data, request rectification, deletion, and portability. If you are in the EU/EEA or California, GDPR and CCPA apply. If you are in Colombia, your rights under Law 1581 of 2012 apply.",
+            "PHYSICAL DATA CONTACT AND DELETION: If you are an end-user and wish to request the rectification, anonymization, or deletion of any personal data captured by our physical systems (including access logs or vehicle license plate photographs processed by Jetson devices in residential complexes and other locations), you must send a formal request to privacy@agentixvanguard.com. We will respond to all legitimate requests within the legally established timeframes."
           ]
         },
         {
