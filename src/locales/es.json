@@ -76,7 +76,8 @@
   },
   "logoCloud": {
     "backedBy": "Respaldado por líderes y ex-alumnos de",
-    "supportedBy": "Apoyado por ecosistemas startup de"
+    "supportedByCloud": "Apoyados por ecosistemas cloud e IA",
+    "supportedByTools": "Herramientas startup de nuestra stack"
   },
   "testimonials": {
     "badge": "Casos de Éxito",
