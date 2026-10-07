@@ -190,7 +190,22 @@
       }
     ]
   },
+  "products": {
+    "badge": "Productos",
+    "title": "Productos que",
+    "titleHighlight": "puedes contratar",
+    "subtitle": "Software comercial de Agentix Vanguard con precio público. Cada producto tiene su propio sitio para planes y pago.",
+    "items": {
+      "smartFrontDesk": {
+        "name": "Smart FrontDesk",
+        "description": "Recepción y front desk con IA: atiende visitantes y llamadas, agenda citas y deriva consultas 24/7 para que tu equipo no pierda leads.",
+        "price": "Desde $49/mes",
+        "cta": "Ir al producto"
+      }
+    }
+  },
   "nav": {
+    "products": "Productos",
     "services": "Servicios",
     "tech": "Tecnologías IA",
     "protocol": "Protocolo",

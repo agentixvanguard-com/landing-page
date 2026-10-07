@@ -1,0 +1,51 @@
+---
+description: Firmado por (Signed-off-by) y Assisted-by en cada commit
+alwaysApply: true
+---
+
+# Git commit attribution (Firmado por)
+
+Every Git commit in this repo must follow human review + trailers. Sources: [Linux coding-assistants](https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst#attribution), [US Copyright Office NewsNet 1060](https://www.copyright.gov/newsnet/2025/1060.html).
+
+## Assisted-by
+
+If any hunk was written or edited by an LLM in the session that produced the change, add after the message body:
+
+```
+Assisted-by: LLM [TOOL1] [TOOL2]
+```
+
+Optional tool names: the LLM used (Claude, Grok, Composer, Cursor). Do not list basic tools (Git, npm, editors).
+
+Examples:
+
+```
+Assisted-by: LLM Cursor
+Assisted-by: LLM Claude
+```
+
+Omit `Assisted-by` only when the commit is entirely human-written with no LLM edits.
+
+## Signed-off-by (Firmado por)
+
+A human must review the change and certify all of:
+
+1. AI-generated code was reviewed, and `Assisted-by` was added when applicable.
+2. The code does not contain parts copied from copyrighted code.
+3. Copied public-domain code has a correct citation.
+4. The submitter takes full responsibility for the commit.
+
+Trailer format (last line), using this repo’s `git config user.name` / `user.email`:
+
+```
+Signed-off-by: Name <email@example.com>
+```
+
+## Agent rules
+
+- Do **not** add `Signed-off-by` or run `git commit -s` until the user explicitly confirms they reviewed the change and accept the four certifications above. A request to “commit” alone is not that confirmation.
+- Do **not** invent `user.name` / `user.email`. If either is empty, stop and ask.
+- Before committing: read the diff; refuse if it copies copyrighted code or lacks required public-domain citations.
+- Show the full commit message **with** `Assisted-by` when it applies and **without** `Signed-off-by`, then ask for confirmation.
+- After explicit confirmation, append `Signed-off-by` as the last line and create the commit.
+- Trailer order: message body → blank line → `Assisted-by` (if any) → `Signed-off-by`.

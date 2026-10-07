@@ -190,7 +190,22 @@
       }
     ]
   },
+  "products": {
+    "badge": "Products",
+    "title": "Products you can",
+    "titleHighlight": "subscribe to",
+    "subtitle": "Commercial Agentix Vanguard software with public pricing. Each product has its own site for plans and checkout.",
+    "items": {
+      "smartFrontDesk": {
+        "name": "Smart FrontDesk",
+        "description": "AI front desk and reception: greets visitors and callers, books appointments, and routes inquiries 24/7 so your team never misses a lead.",
+        "price": "From $49/mo",
+        "cta": "Go to product"
+      }
+    }
+  },
   "nav": {
+    "products": "Products",
     "services": "Services",
     "tech": "AI Technologies",
     "protocol": "Protocol",

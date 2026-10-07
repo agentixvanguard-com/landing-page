@@ -5,6 +5,7 @@ import { Menu, X, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinkKeys = [
+  { labelKey: "nav.products", href: "#productos" },
   { labelKey: "nav.services", href: "#servicios" },
   { labelKey: "nav.tech", href: "#tecnologias" },
   { labelKey: "nav.protocol", href: "#protocolo" },
