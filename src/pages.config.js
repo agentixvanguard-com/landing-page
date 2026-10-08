@@ -56,6 +56,7 @@ import Docs from './pages/Docs';
 import Status from './pages/Status';
 import Support from './pages/Support';
 import Cookies from './pages/Cookies';
+import DataDeletion from './pages/DataDeletion';
 
 export const PAGES = {
     "Home": Home,
@@ -67,6 +68,7 @@ export const PAGES = {
     "status": Status,
     "support": Support,
     "cookies": Cookies,
+    "data-deletion": DataDeletion,
 }
 
 export const pagesConfig = {

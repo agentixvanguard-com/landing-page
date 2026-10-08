@@ -483,11 +483,14 @@
         "title": "Legal",
         "privacy": "Privacy",
         "terms": "Terms",
-        "cookies": "Cookies"
+        "cookies": "Cookies",
+        "dataDeletion": "Data deletion"
       },
       "social": {
         "title": "Social",
         "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
         "twitter": "Twitter / X"
       }
     },
@@ -497,7 +500,7 @@
     "backToHome": "Back to Home",
     "terms": {
       "title": "Terms and Conditions",
-      "lastUpdated": "Last updated: February 2026",
+      "lastUpdated": "Last updated: October 2026",
       "contact": "For questions about these Terms, contact us at legal@agentixvanguard.com",
       "sections": [
         {
@@ -548,13 +551,20 @@
           "paragraphs": [
             "These Terms are governed by the laws of the State of Florida, USA (headquarters of AgentixVanguard LLC). However, for physical operations deployed in Colombian territory through our subsidiary (Agentix Vanguard S.A.S.), the processing of personal data and local regulatory obligations will strictly comply with Law 1581 of 2012 of Colombia."
           ]
+        },
+        {
+          "title": "9. Sign-in",
+          "paragraphs": [
+            "Sign-in for Agentix products, and for white-label products that use Agentix Identity, is operated by Agentix Vanguard. These Terms cover that sign-in, including sign-in with Google, Facebook, or Apple.",
+            "A white-label product may also ask you to accept that product's own terms after you sign in. Those product terms are separate from these Terms and are shown by the brand you are using."
+          ]
         }
       ]
     },
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: February 2026",
-      "contact": "To exercise your GDPR/CCPA rights (access, rectification, deletion, portability), contact us at privacy@agentixvanguard.com. We will respond within 30 days.",
+      "lastUpdated": "Last updated: October 2026",
+      "contact": "To exercise your GDPR/CCPA rights (access, rectification, deletion, portability), contact us at privacy@agentixvanguard.com. We will respond within 30 days. Account deletion steps are at https://www.agentixvanguard.com/data-deletion.",
       "sections": [
         {
           "title": "1. Data We Collect and Cookie Notice",
@@ -574,7 +584,10 @@
               ["OpenAI", "LLM inference", "US (DPF certified)", "No"],
               ["Anthropic", "LLM inference", "US", "No"],
               ["Google Vertex AI", "LLM inference, RAG", "US / EU option", "No"],
-              ["AWS / Azure / GCP", "Infrastructure", "Configurable", "N/A"]
+              ["AWS / Azure / GCP", "Infrastructure, including Amazon Cognito for sign-in", "Configurable", "N/A"],
+              ["Google", "Sign-in with Google", "US", "No"],
+              ["Meta", "Sign-in with Facebook", "US", "No"],
+              ["Apple", "Sign in with Apple", "US", "No"]
             ]
           }
         },
@@ -595,6 +608,43 @@
           "title": "5. Data Retention",
           "paragraphs": [
             "AI provider logs are typically retained for 30 days for abuse detection. We retain your account and usage data as necessary to provide the Services and comply with legal obligations. Enterprise customers may request zero-data-retention options where available."
+          ]
+        },
+        {
+          "title": "6. Sign-in with Google, Facebook, and Apple",
+          "paragraphs": [
+            "Agentix Identity operates sign-in for Agentix products and for white-label brands that use it. When you choose Google, Facebook, or Apple, that provider sends us the email address and the identifier they use for your account. We do not receive your password from those providers.",
+            "The Google or Facebook consent screen names Agentix because Agentix operates that sign-in. A white-label product may still ask you to accept its own product terms after you sign in. Those terms are separate from this policy.",
+            "To ask us to delete the identity account, follow the steps at https://www.agentixvanguard.com/data-deletion."
+          ]
+        }
+      ]
+    },
+    "dataDeletion": {
+      "title": "Data deletion",
+      "lastUpdated": "Last updated: October 2026",
+      "contact": "Send the request to privacy@agentixvanguard.com. We respond within 30 days.",
+      "privacyLink": "Privacy Policy",
+      "sections": [
+        {
+          "title": "1. What you can ask us to delete",
+          "paragraphs": [
+            "This page is how you ask Agentix Vanguard to delete the identity account we hold when you sign in to an Agentix product, or to a white-label product that uses Agentix Identity.",
+            "That account includes the email address, the identifier received from Google, Facebook, or Apple, and the sign-in sessions tied to it."
+          ]
+        },
+        {
+          "title": "2. How to send the request",
+          "paragraphs": [
+            "Email privacy@agentixvanguard.com from the address you use to sign in, or tell us that address in the message. Say that you want your Agentix identity account deleted, and name the provider you used: Google, Facebook, Apple, or email and password.",
+            "If you signed in with Facebook, you can also remove Agentix from your Facebook settings (Settings and privacy, then Apps and websites). That stops Facebook from sharing new data with us. It does not by itself delete the account we already stored. Send the email as well."
+          ]
+        },
+        {
+          "title": "3. What we do with the request",
+          "paragraphs": [
+            "We delete or anonymize the identity account and its sign-in sessions, unless we must keep a record to meet a legal duty. We respond within 30 days.",
+            "Data that belongs to a specific product, such as a trip, a device, or an access log at a site, is handled under that product's terms and under the Privacy Policy. A request on this page covers the Agentix identity account."
           ]
         }
       ]

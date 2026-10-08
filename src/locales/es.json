@@ -483,11 +483,14 @@
         "title": "Legal",
         "privacy": "Privacidad",
         "terms": "Términos",
-        "cookies": "Cookies"
+        "cookies": "Cookies",
+        "dataDeletion": "Eliminación de datos"
       },
       "social": {
         "title": "Social",
         "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
         "twitter": "Twitter / X"
       }
     },
@@ -497,7 +500,7 @@
     "backToHome": "Volver al inicio",
     "terms": {
       "title": "Términos y Condiciones",
-      "lastUpdated": "Última actualización: Febrero 2026",
+      "lastUpdated": "Última actualización: octubre 2026",
       "contact": "Para consultas sobre estos Términos, contáctenos en legal@agentixvanguard.com",
       "sections": [
         {
@@ -548,13 +551,20 @@
           "paragraphs": [
             "Estos Términos se rigen por las leyes del Estado de Florida, EE. UU. (sede de AgentixVanguard LLC). Sin embargo, para las operaciones físicas desplegadas en territorio colombiano a través de nuestra filial (Agentix Vanguard S.A.S.), el tratamiento de datos personales y obligaciones regulatorias locales se ajustarán estrictamente a la Ley 1581 de 2012 de Colombia."
           ]
+        },
+        {
+          "title": "9. Inicio de sesión",
+          "paragraphs": [
+            "El inicio de sesión de los productos Agentix, y de las marcas blancas que usan Agentix Identity, lo opera Agentix Vanguard. Estos Términos cubren ese inicio de sesión, incluido el inicio con Google, Facebook o Apple.",
+            "Una marca blanca puede pedirle, después de entrar, que acepte los términos propios de ese producto. Esos términos son distintos de estos y los muestra la marca que está usando."
+          ]
         }
       ]
     },
     "privacy": {
       "title": "Política de Privacidad",
-      "lastUpdated": "Última actualización: Febrero 2026",
-      "contact": "Para ejercer sus derechos GDPR/CCPA (acceso, rectificación, eliminación, portabilidad), contáctenos en privacy@agentixvanguard.com. Responderemos en un plazo de 30 días.",
+      "lastUpdated": "Última actualización: octubre 2026",
+      "contact": "Para ejercer sus derechos GDPR/CCPA (acceso, rectificación, eliminación, portabilidad), contáctenos en privacy@agentixvanguard.com. Responderemos en un plazo de 30 días. Los pasos para eliminar la cuenta están en https://www.agentixvanguard.com/data-deletion.",
       "sections": [
         {
           "title": "1. Datos que Recolectamos y Aviso de Cookies",
@@ -574,7 +584,10 @@
               ["OpenAI", "Inferencia LLM", "EE.UU. (DPF certificado)", "No"],
               ["Anthropic", "Inferencia LLM", "EE.UU.", "No"],
               ["Google Vertex AI", "Inferencia LLM, RAG", "EE.UU. / opción UE", "No"],
-              ["AWS / Azure / GCP", "Infraestructura", "Configurable", "N/A"]
+              ["AWS / Azure / GCP", "Infraestructura, incluido Amazon Cognito para el inicio de sesión", "Configurable", "N/A"],
+              ["Google", "Inicio de sesión con Google", "EE.UU.", "No"],
+              ["Meta", "Inicio de sesión con Facebook", "EE.UU.", "No"],
+              ["Apple", "Inicio de sesión con Apple", "EE.UU.", "No"]
             ]
           }
         },
@@ -595,6 +608,43 @@
           "title": "5. Retención de Datos",
           "paragraphs": [
             "Los logs de los proveedores de IA típicamente se retienen 30 días para detección de abusos. Retenemos los datos de su cuenta y uso según sea necesario para prestar los Servicios y cumplir obligaciones legales. Los clientes empresariales pueden solicitar opciones de zero-data-retention cuando estén disponibles."
+          ]
+        },
+        {
+          "title": "6. Inicio de sesión con Google, Facebook y Apple",
+          "paragraphs": [
+            "Agentix Identity opera el inicio de sesión de los productos Agentix y de las marcas blancas que lo usan. Si elige Google, Facebook o Apple, ese proveedor nos envía el correo y el identificador que usa para su cuenta. No recibimos su contraseña de esos proveedores.",
+            "La pantalla de consentimiento de Google o Facebook dice Agentix porque Agentix opera ese inicio de sesión. Una marca blanca puede pedirle, después de entrar, que acepte los términos propios de ese producto. Esos términos son distintos de esta política.",
+            "Para pedirnos que eliminemos la cuenta de identidad, siga los pasos en https://www.agentixvanguard.com/data-deletion."
+          ]
+        }
+      ]
+    },
+    "dataDeletion": {
+      "title": "Eliminación de datos",
+      "lastUpdated": "Última actualización: octubre 2026",
+      "contact": "Envíe la solicitud a privacy@agentixvanguard.com. Respondemos en un plazo de 30 días.",
+      "privacyLink": "Política de privacidad",
+      "sections": [
+        {
+          "title": "1. Qué puede pedirnos eliminar",
+          "paragraphs": [
+            "Esta página es la forma de pedirle a Agentix Vanguard que elimine la cuenta de identidad que guardamos cuando entra a un producto Agentix, o a una marca blanca que usa Agentix Identity.",
+            "Esa cuenta incluye el correo, el identificador recibido de Google, Facebook o Apple, y las sesiones de inicio de sesión asociadas."
+          ]
+        },
+        {
+          "title": "2. Cómo enviar la solicitud",
+          "paragraphs": [
+            "Escriba a privacy@agentixvanguard.com desde el correo con el que entra, o indíquenos ese correo en el mensaje. Diga que quiere eliminar su cuenta de identidad de Agentix y nombre el proveedor que usó: Google, Facebook, Apple, o correo y contraseña.",
+            "Si entró con Facebook, también puede quitar Agentix en la configuración de Facebook (Configuración y privacidad, luego Aplicaciones y sitios web). Eso impide que Facebook nos comparta datos nuevos. No borra por sí solo la cuenta que ya guardamos. Envíe también el correo."
+          ]
+        },
+        {
+          "title": "3. Qué hacemos con la solicitud",
+          "paragraphs": [
+            "Eliminamos o anonimizamos la cuenta de identidad y sus sesiones, salvo que debamos conservar un registro por una obligación legal. Respondemos en un plazo de 30 días.",
+            "Los datos de un producto concreto, como un viaje, un dispositivo o un registro de acceso en un sitio, se tratan según los términos de ese producto y según la Política de privacidad. Una solicitud en esta página cubre la cuenta de identidad de Agentix."
           ]
         }
       ]
