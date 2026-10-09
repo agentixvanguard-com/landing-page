@@ -94,7 +94,7 @@ export default function AITechSection() {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, amount: 0.2 }}
                     transition={{ duration: 0.6 }}
                     className="text-center mb-20"
                 >
@@ -114,7 +114,7 @@ export default function AITechSection() {
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
+                    viewport={{ once: false, amount: 0.2, margin: "-50px" }}
                     className="grid gap-x-12 gap-y-20 md:grid-cols-2 lg:grid-cols-3"
                 >
                     {Array.isArray(items) && items.map((tech, i) => (

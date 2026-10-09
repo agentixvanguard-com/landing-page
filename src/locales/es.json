@@ -9,24 +9,61 @@
         "name": "Cloud-Based Agentic AI",
         "tagline": "Gama Básica - Flujos autónomos cloud",
         "description": "Flujos autónomos con razonamiento asistido por Hybrid RAG en la nube. Ideal para PYMES y control de rutas. Inteligencia reactiva: decide tras ingestión en cloud.",
-        "features": ["Contexto Hybrid RAG (Vector + Graph)", "Orquestación cloud con Skills propietarias", "Modelo de entrada para presupuestos bajos", "Inteligencia 100% dependiente de celular"]
+        "features": [
+          "Contexto Hybrid RAG (Vector + Graph)",
+          "Orquestación cloud con Skills propietarias",
+          "Modelo de entrada para presupuestos bajos",
+          "Inteligencia 100% dependiente de celular"
+        ]
       },
       "edge": {
         "name": "Edge Pro AI",
         "tagline": "Gama Alta - NPU + IoT Edge nativo",
         "description": "Decisiones on-device con NPU, SLMs y edge gateways. Ideal para seguridad crítica y operaciones de alto valor. Inteligencia proactiva en milisegundos.",
-        "features": ["NPU/AI chip + inferencia local SLM", "Procesamiento MQTT y operación offline", "AWS IoT Greengrass / Azure IoT Edge", "Intervención ultra-baja latencia"]
+        "features": [
+          "NPU/AI chip + inferencia local SLM",
+          "Procesamiento MQTT y operación offline",
+          "AWS IoT Greengrass / Azure IoT Edge",
+          "Intervención ultra-baja latencia"
+        ]
       }
     },
     "tableRows": [
-      {"feature": "Hardware", "cloud": "GPS estándar (económico)", "edge": "Dispositivo NPU / AI Chip"},
-      {"feature": "Inteligencia", "cloud": "Vector RAG estándar", "edge": "Hybrid Graph + Vector RAG"},
-      {"feature": "Conectividad", "cloud": "Cloud API", "edge": "Edge MQTT"},
-      {"feature": "Latencia", "cloud": "Latencia reactiva en nube", "edge": "Casi tiempo real on-device"},
-      {"feature": "Modelo de costo", "cloud": "OPEX alto (nube + datos)", "edge": "CAPEX inicial, menor costo cloud mensual"}
+      {
+        "feature": "Hardware",
+        "cloud": "GPS estándar (económico)",
+        "edge": "Dispositivo NPU / AI Chip"
+      },
+      {
+        "feature": "Inteligencia",
+        "cloud": "Vector RAG estándar",
+        "edge": "Hybrid Graph + Vector RAG"
+      },
+      {
+        "feature": "Conectividad",
+        "cloud": "Cloud API",
+        "edge": "Edge MQTT"
+      },
+      {
+        "feature": "Latencia",
+        "cloud": "Latencia reactiva en nube",
+        "edge": "Casi tiempo real on-device"
+      },
+      {
+        "feature": "Modelo de costo",
+        "cloud": "OPEX alto (nube + datos)",
+        "edge": "CAPEX inicial, menor costo cloud mensual"
+      }
     ],
-    "tableHeader": {"feature": "Característica", "cloud": "Cloud-Based", "edge": "Edge Pro"},
-    "openclawLabels": {"cloud": "Inteligencia Cloud", "edge": "Inteligencia Edge"},
+    "tableHeader": {
+      "feature": "Característica",
+      "cloud": "Cloud-Based",
+      "edge": "Edge Pro"
+    },
+    "openclawLabels": {
+      "cloud": "Inteligencia Cloud",
+      "edge": "Inteligencia Edge"
+    },
     "openclaw": {
       "title": "Agentic Skills & Hybrid Intelligence",
       "description": "Nuestras Agentic Skills propietarias razonan por similitud semántica y por contexto relacional. Vector retrieval responde rápido sobre documentos; GraphRAG con Neo4j conecta dependencias causales.",
@@ -62,16 +99,24 @@
     }
   },
   "hero": {
-    "badge": "Liderando la Era de IA Agéntica, Hybrid RAG y Edge IoT",
-    "title": "Liderando la Era de la",
-    "titleHighlight": "IA Agéntica e Inteligencia Híbrida",
-    "subtitle": "Construimos <1>Sistemas Multi-Agente Autónomos</1> con <1>Hybrid RAG (Vector + Graph)</1> y <2>ejecución IoT en Edge</2>. Impulsados por Agentic Skills propietarias con gobernanza determinista.",
-    "ctaAudit": "Agenda una Auditoría de Arquitectura",
-    "ctaDemo": "Ver Demo",
+    "badge": "IA Agéntica · Hybrid RAG · Edge IoT",
+    "title": "Integramos IA Agéntica que",
+    "rotatingWords": [
+      "decide",
+      "ejecuta",
+      "aprende",
+      "escala"
+    ],
+    "titleHighlight": "en toda tu operación",
+    "titleSr": "Integramos IA Agéntica y agentes autónomos que deciden, ejecutan, aprenden y escalan en toda tu operación",
+    "subtitle": "Diseñamos e integramos <1>sistemas multi-agente autónomos</1> en tus procesos, datos y dispositivos, de la nube al <2>Edge IoT</2>. Menos trabajo manual, decisiones en tiempo real y control total sobre cada acción.",
+    "ctaAudit": "Agenda tu auditoría",
+    "ctaDemo": "Ver cómo funciona",
+    "reassurance": "Sin compromiso · Respuesta en 24h · Vertex AI, Azure AI Foundry y Amazon Bedrock",
     "stats": {
-      "uptime": "Uptime",
-      "latency": "Latencia",
-      "errors": "Errores en Prod"
+      "response": "Operación autónoma",
+      "cost": "Decisiones en Edge",
+      "errors": "Errores en producción"
     }
   },
   "logoCloud": {
@@ -80,35 +125,37 @@
     "supportedByTools": "Herramientas startup de nuestra stack"
   },
   "testimonials": {
-    "badge": "Casos de Éxito",
-    "title": "Resultados que",
-    "titleHighlight": "Hablan Solos",
-    "subtitle": "Empresas de distintos sectores ya operan con su Fuerza Laboral Digital Agentix.",
-    "disclaimer": "* Casos representativos. Los nombres son ficticios hasta autorización del cliente.",
+    "badge": "Escenarios de implementación",
+    "title": "Así se ve el impacto",
+    "titleHighlight": "en tu operación",
+    "subtitle": "Escenarios típicos de lo que los agentes autónomos de Agentix resuelven en distintos sectores.",
+    "beforeLabel": "Antes",
+    "afterLabel": "Con Agentix",
+    "disclaimer": "* Escenarios ilustrativos basados en implementaciones tipo. Los resultados varían según cada operación.",
     "items": [
       {
-        "quote": "Antes tardábamos 4 minutos promedio en responder un lead en WhatsApp. Hoy el agente responde en menos de 3 segundos, califica el lead y agenda la reunión automáticamente. Las ventas digitales subieron un 38% el primer mes.",
+        "sector": "Fintech",
+        "service": "Sistema multi-agente comercial",
+        "before": "Los leads de todos los canales esperaban minutos u horas por atención y calificación manual.",
+        "after": "Los agentes atienden en segundos, califican con contexto del CRM y agendan la reunión sin intervención.",
         "metric": "+38%",
-        "metricLabel": "Ventas digitales en 30 días",
-        "name": "Carlos M.",
-        "role": "Chief Revenue Officer — Fintech Latinoamérica",
-        "initials": "CM"
+        "metricLabel": "Ventas digitales en 30 días"
       },
       {
-        "quote": "Integramos el agente de voz con nuestro sistema de gestión de flota. Ahora los conductores reciben rutas optimizadas y alertas de mantenimiento por llamada. Redujimos los tiempos de coordinación de operaciones en un 52%.",
+        "sector": "Logística",
+        "service": "Agentes IoT + voz para flota",
+        "before": "La coordinación de rutas y alertas de mantenimiento dependía de llamadas y revisiones manuales.",
+        "after": "Los agentes leen la telemetría, optimizan rutas y alertan a los conductores de forma autónoma.",
         "metric": "-52%",
-        "metricLabel": "Tiempos de coordinación de flota",
-        "name": "Paola R.",
-        "role": "COO — Empresa de Logística Regional",
-        "initials": "PR"
+        "metricLabel": "Tiempo de coordinación de flota"
       },
       {
-        "quote": "El onboarding de nuevos médicos pasó de una semana de papeleos y orientaciones manuales a un proceso guiado por el agente de RRHH. Cerramos 200 incorporaciones en Q4 sin aumentar el equipo de HR ni un solo colaborador.",
+        "sector": "Salud",
+        "service": "Agente autónomo de RRHH",
+        "before": "Incorporar un médico tomaba una semana de papeleo y orientaciones manuales.",
+        "after": "Un proceso guiado e integrado con los sistemas internos, sin sumar personal a RRHH.",
         "metric": "200+",
-        "metricLabel": "Incorporaciones automatizadas en un trimestre",
-        "name": "Dr. Andrés V.",
-        "role": "CHRO — Red de Clínicas Privadas",
-        "initials": "AV"
+        "metricLabel": "Incorporaciones en un trimestre"
       }
     ]
   },
@@ -136,7 +183,7 @@
       },
       {
         "question": "¿Cuánto cuesta implementar un agente con Agentix Vanguard?",
-        "answer": "Los proyectos parten de una Auditoría de Arquitectura gratuita donde evaluamos tu caso de uso específico. A partir de ahí, los engagements van desde implementaciones modulares (un canal, una función) hasta plataformas agénticas completas. Los costos varían según complejidad, integraciones y volumen de interacciones. Agenda tu auditoría para obtener una estimación ajustada a tu negocio."
+        "answer": "Los proyectos parten de una Auditoría de Arquitectura donde evaluamos tu caso de uso específico. A partir de ahí, los engagements van desde implementaciones modulares (un canal, una función) hasta plataformas agénticas completas. Los costos varían según complejidad, integraciones y volumen de interacciones. Agenda tu auditoría para obtener una estimación ajustada a tu negocio."
       },
       {
         "question": "¿Puedo usar mis propios modelos o tiene que ser un LLM de tercero?",
@@ -150,7 +197,10 @@
         "question": "¿Cómo despliegan agentes en mi hardware IoT (AWS/Azure) y qué son las Agentic Skills?",
         "answer": "Desplegamos sobre stacks edge nativos como AWS IoT Greengrass y Azure IoT Edge, con streams MQTT para procesar eventos de baja latencia. Las Agentic Skills son nuestro runtime modular propietario que ejecuta acciones gobernadas en cloud y edge con comportamiento determinista y controles enterprise."
       }
-    ]
+    ],
+    "moreTitle": "¿Tu pregunta no está aquí?",
+    "moreText": "En 30 minutos revisamos tu caso y te decimos qué se puede automatizar y cuánto cuesta.",
+    "moreCta": "Agendar llamada"
   },
   "aiTech": {
     "badge": "Motores & Orquestadores",
@@ -190,34 +240,32 @@
       }
     ]
   },
-  "products": {
-    "badge": "Productos",
-    "title": "Productos que",
-    "titleHighlight": "puedes contratar",
-    "subtitle": "Software comercial de Agentix Vanguard con precio público. Cada producto tiene su propio sitio para planes y pago.",
-    "items": {
-      "smartFrontDesk": {
-        "name": "Smart FrontDesk",
-        "description": "Recepción y front desk con IA: atiende visitantes y llamadas, agenda citas y deriva consultas 24/7 para que tu equipo no pierda leads.",
-        "price": "Desde $49/mes",
-        "cta": "Ir al producto"
-      }
-    }
-  },
   "nav": {
+    "solutions": "Soluciones",
+    "how": "Cómo funciona",
+    "cases": "Casos",
     "products": "Productos",
-    "services": "Servicios",
-    "tech": "Tecnologías IA",
-    "protocol": "Protocolo",
-    "stack": "Stack",
-    "security": "Seguridad",
-    "contact": "Contactar"
+    "plans": "Planes",
+    "faq": "FAQ",
+    "contact": "Agendar auditoría",
+    "menu": {
+      "enterprise": "Agentes para ventas, voz, marketing, RRHH y cumplimiento",
+      "iot": "Telemetría, acceso LPR y vigilancia con decisiones en el Edge",
+      "residential": "Portería virtual, PQRS, convivencia y parqueaderos",
+      "demoTitle": "Míralo en acción",
+      "demoDesc": "Mira un sistema multi-agente resolver un caso real en segundos",
+      "services": "servicios",
+      "open": "Abrir menú",
+      "close": "Cerrar menú",
+      "language": "Idioma"
+    },
+    "platform": "Plataforma"
   },
   "services": {
-    "badge": "The Vanguard Suite",
-    "title": "Fuerza Laboral Digital con",
-    "titleHighlight": "Arquitectura Militar",
-    "subtitle": "No creamos chatbots. Construimos agentes autónomos que operan con la precisión de un sistema de defensa.",
+    "badge": "Soluciones",
+    "title": "Un equipo digital que",
+    "titleHighlight": "trabaja mientras duermes",
+    "subtitle": "Elige el área que más te duele hoy. Empezamos por ahí y escalamos cuando veas resultados.",
     "explore": "Explorar",
     "items": [
       {
@@ -266,7 +314,7 @@
       },
       {
         "title": "AI Risk & Security Compliance",
-        "subtitle": "Gestión de Riesgos de Grado Militar",
+        "subtitle": "Gestión de Riesgos de Nivel Enterprise",
         "description": "Implementa agentes de IA que monitorean la actividad de tu empresa buscando el cumplimiento normativo (Compliance). Detectan potenciales incidentes y generan reportes en tiempo real para mitigar drásticamente riesgos legales o fallas operativas.",
         "features": [
           "Monitoreo de Compliance",
@@ -286,13 +334,18 @@
           "Antirrobo, Cadena de Frío, Mantenimiento Predictivo"
         ]
       }
-    ]
+    ],
+    "tabs": {
+      "enterprise": "Empresas",
+      "iot": "IoT, Edge y Seguridad",
+      "residential": "Propiedad horizontal"
+    }
   },
   "ouroboros": {
     "badge": "El Diferencial",
     "title": "Protocolo",
     "titleHighlight": "Ouroboros",
-    "subtitle": "Un ciclo de desarrollo donde la IA se diseña, se programa y se audita a sí misma. QA Adversario para garantizar cero errores en producción.",
+    "subtitle": "Un ciclo de desarrollo donde la IA se diseña, se programa y se audita a sí misma. QA adversario en cada iteración para minimizar errores en producción.",
     "cycleLabel": "Ciclo Infinito de Mejora",
     "steps": [
       {
@@ -405,8 +458,8 @@
     "title": "Privacidad de Datos",
     "titleHighlight": "Enterprise",
     "subtitle": "Seguridad de grado industrial y latencia mínima. Tu infraestructura de IA, blindada.",
-    "banner": "Protocolo Ouroboros incluye QA Adversario en cada deployment. Cero errores en producción no es una promesa — es una garantía arquitectónica.",
-    "bannerHighlight": "Cero errores en producción",
+    "banner": "El Protocolo Ouroboros incluye QA adversario en cada despliegue para minimizar errores en producción y detectar fallos antes de que lleguen a tu operación.",
+    "bannerHighlight": "QA adversario en cada despliegue",
     "items": [
       {
         "title": "Encriptación End-to-End",
@@ -435,12 +488,12 @@
     ]
   },
   "cta": {
-    "badge": "El Siguiente Paso",
-    "title": "¿Listo para desplegar tu",
-    "titleHighlight": "Fuerza Laboral Digital",
+    "badge": "El siguiente paso",
+    "title": "¿Listo para poner la IA",
+    "titleHighlight": "a operar tu empresa",
     "titleSuffix": "?",
-    "paragraph": "Agenda una auditoría de arquitectura gratuita. Analizamos tu infraestructura actual y diseñamos el roadmap hacia la autonomía operativa.",
-    "button": "Agenda tu Auditoría Gratuita",
+    "paragraph": "Agenda una auditoría de arquitectura. Analizamos tu operación y diseñamos el roadmap hacia agentes autónomos que generen resultados reales.",
+    "button": "Agenda tu auditoría",
     "disclaimer": "Sin compromiso · Respuesta en 24h"
   },
   "blog": {
@@ -483,8 +536,7 @@
         "title": "Legal",
         "privacy": "Privacidad",
         "terms": "Términos",
-        "cookies": "Cookies",
-        "dataDeletion": "Eliminación de datos"
+        "cookies": "Cookies"
       },
       "social": {
         "title": "Social",
@@ -492,6 +544,14 @@
         "facebook": "Facebook",
         "instagram": "Instagram",
         "twitter": "Twitter / X"
+      },
+      "contact": {
+        "title": "Contacto",
+        "email": "Email",
+        "whatsapp": "WhatsApp",
+        "phone": "Teléfono",
+        "location": "AgentixVanguard LLC · registrada en Florida, EE. UU.",
+        "remote": "Equipo 100% remoto, sin oficina física"
       }
     },
     "copyright": "© 2026 Agentix Vanguard. Todos los derechos reservados."
@@ -500,7 +560,7 @@
     "backToHome": "Volver al inicio",
     "terms": {
       "title": "Términos y Condiciones",
-      "lastUpdated": "Última actualización: octubre 2026",
+      "lastUpdated": "Última actualización: Febrero 2026",
       "contact": "Para consultas sobre estos Términos, contáctenos en legal@agentixvanguard.com",
       "sections": [
         {
@@ -549,22 +609,15 @@
         {
           "title": "8. Jurisdicción y Ley Aplicable",
           "paragraphs": [
-            "Estos Términos se rigen por las leyes del Estado de Florida, EE. UU. (sede de AgentixVanguard LLC). Sin embargo, para las operaciones físicas desplegadas en territorio colombiano a través de nuestra filial (Agentix Vanguard S.A.S.), el tratamiento de datos personales y obligaciones regulatorias locales se ajustarán estrictamente a la Ley 1581 de 2012 de Colombia."
-          ]
-        },
-        {
-          "title": "9. Inicio de sesión",
-          "paragraphs": [
-            "El inicio de sesión de los productos Agentix, y de las marcas blancas que usan Agentix Identity, lo opera Agentix Vanguard. Estos Términos cubren ese inicio de sesión, incluido el inicio con Google, Facebook o Apple.",
-            "Una marca blanca puede pedirle, después de entrar, que acepte los términos propios de ese producto. Esos términos son distintos de estos y los muestra la marca que está usando."
+            "Estos Términos se rigen por las leyes del Estado de Florida, EE. UU. (estado de constitución de AgentixVanguard LLC). Sin embargo, para las operaciones físicas desplegadas en territorio colombiano a través de nuestra filial (Agentix Vanguard S.A.S.), el tratamiento de datos personales y obligaciones regulatorias locales se ajustarán estrictamente a la Ley 1581 de 2012 de Colombia."
           ]
         }
       ]
     },
     "privacy": {
       "title": "Política de Privacidad",
-      "lastUpdated": "Última actualización: octubre 2026",
-      "contact": "Para ejercer sus derechos GDPR/CCPA (acceso, rectificación, eliminación, portabilidad), contáctenos en privacy@agentixvanguard.com. Responderemos en un plazo de 30 días. Los pasos para eliminar la cuenta están en https://www.agentixvanguard.com/data-deletion.",
+      "lastUpdated": "Última actualización: Febrero 2026",
+      "contact": "Para ejercer sus derechos GDPR/CCPA (acceso, rectificación, eliminación, portabilidad), contáctenos en privacy@agentixvanguard.com. Responderemos en un plazo de 30 días.",
       "sections": [
         {
           "title": "1. Datos que Recolectamos y Aviso de Cookies",
@@ -579,15 +632,37 @@
             "Sus datos pueden ser procesados por proveedores de infraestructura e IA. Utilizamos: AWS, Azure y Google Cloud para hosting; OpenAI, Anthropic y Google (Vertex AI) para modelos de lenguaje. Los datos enviados por API a estos proveedores no se utilizan para entrenamiento de modelos bajo nuestros acuerdos empresariales. A continuación un resumen de los sub-procesadores clave:"
           ],
           "table": {
-            "headers": ["Proveedor", "Propósito", "Ubicación de Datos", "¿Entrenamiento con datos API?"],
+            "headers": [
+              "Proveedor",
+              "Propósito",
+              "Ubicación de Datos",
+              "¿Entrenamiento con datos API?"
+            ],
             "rows": [
-              ["OpenAI", "Inferencia LLM", "EE.UU. (DPF certificado)", "No"],
-              ["Anthropic", "Inferencia LLM", "EE.UU.", "No"],
-              ["Google Vertex AI", "Inferencia LLM, RAG", "EE.UU. / opción UE", "No"],
-              ["AWS / Azure / GCP", "Infraestructura, incluido Amazon Cognito para el inicio de sesión", "Configurable", "N/A"],
-              ["Google", "Inicio de sesión con Google", "EE.UU.", "No"],
-              ["Meta", "Inicio de sesión con Facebook", "EE.UU.", "No"],
-              ["Apple", "Inicio de sesión con Apple", "EE.UU.", "No"]
+              [
+                "OpenAI",
+                "Inferencia LLM",
+                "EE.UU. (DPF certificado)",
+                "No"
+              ],
+              [
+                "Anthropic",
+                "Inferencia LLM",
+                "EE.UU.",
+                "No"
+              ],
+              [
+                "Google Vertex AI",
+                "Inferencia LLM, RAG",
+                "EE.UU. / opción UE",
+                "No"
+              ],
+              [
+                "AWS / Azure / GCP",
+                "Infraestructura",
+                "Configurable",
+                "N/A"
+              ]
             ]
           }
         },
@@ -609,43 +684,6 @@
           "paragraphs": [
             "Los logs de los proveedores de IA típicamente se retienen 30 días para detección de abusos. Retenemos los datos de su cuenta y uso según sea necesario para prestar los Servicios y cumplir obligaciones legales. Los clientes empresariales pueden solicitar opciones de zero-data-retention cuando estén disponibles."
           ]
-        },
-        {
-          "title": "6. Inicio de sesión con Google, Facebook y Apple",
-          "paragraphs": [
-            "Agentix Identity opera el inicio de sesión de los productos Agentix y de las marcas blancas que lo usan. Si elige Google, Facebook o Apple, ese proveedor nos envía el correo y el identificador que usa para su cuenta. No recibimos su contraseña de esos proveedores.",
-            "La pantalla de consentimiento de Google o Facebook dice Agentix porque Agentix opera ese inicio de sesión. Una marca blanca puede pedirle, después de entrar, que acepte los términos propios de ese producto. Esos términos son distintos de esta política.",
-            "Para pedirnos que eliminemos la cuenta de identidad, siga los pasos en https://www.agentixvanguard.com/data-deletion."
-          ]
-        }
-      ]
-    },
-    "dataDeletion": {
-      "title": "Eliminación de datos",
-      "lastUpdated": "Última actualización: octubre 2026",
-      "contact": "Envíe la solicitud a privacy@agentixvanguard.com. Respondemos en un plazo de 30 días.",
-      "privacyLink": "Política de privacidad",
-      "sections": [
-        {
-          "title": "1. Qué puede pedirnos eliminar",
-          "paragraphs": [
-            "Esta página es la forma de pedirle a Agentix Vanguard que elimine la cuenta de identidad que guardamos cuando entra a un producto Agentix, o a una marca blanca que usa Agentix Identity.",
-            "Esa cuenta incluye el correo, el identificador recibido de Google, Facebook o Apple, y las sesiones de inicio de sesión asociadas."
-          ]
-        },
-        {
-          "title": "2. Cómo enviar la solicitud",
-          "paragraphs": [
-            "Escriba a privacy@agentixvanguard.com desde el correo con el que entra, o indíquenos ese correo en el mensaje. Diga que quiere eliminar su cuenta de identidad de Agentix y nombre el proveedor que usó: Google, Facebook, Apple, o correo y contraseña.",
-            "Si entró con Facebook, también puede quitar Agentix en la configuración de Facebook (Configuración y privacidad, luego Aplicaciones y sitios web). Eso impide que Facebook nos comparta datos nuevos. No borra por sí solo la cuenta que ya guardamos. Envíe también el correo."
-          ]
-        },
-        {
-          "title": "3. Qué hacemos con la solicitud",
-          "paragraphs": [
-            "Eliminamos o anonimizamos la cuenta de identidad y sus sesiones, salvo que debamos conservar un registro por una obligación legal. Respondemos en un plazo de 30 días.",
-            "Los datos de un producto concreto, como un viaje, un dispositivo o un registro de acceso en un sitio, se tratan según los términos de ese producto y según la Política de privacidad. Una solicitud en esta página cubre la cuenta de identidad de Agentix."
-          ]
         }
       ]
     }
@@ -654,5 +692,258 @@
     "title": "Página no encontrada",
     "message": "La página \"{{path}}\" no existe en esta aplicación.",
     "goHome": "Ir al inicio"
+  },
+  "problem": {
+    "badge": "El problema",
+    "title": "La mayoría de empresas usa IA,",
+    "titleHighlight": "pero pocas la ponen a operar",
+    "subtitle": "Chatbots que solo responden, pilotos que nunca llegan a producción y sistemas que no se hablan entre sí. Esto es lo que vemos antes de trabajar con nosotros:",
+    "items": [
+      {
+        "title": "IA que conversa pero no ejecuta",
+        "description": "Asistentes que responden preguntas pero no toman decisiones ni actúan sobre tus sistemas reales."
+      },
+      {
+        "title": "Datos y sistemas desconectados",
+        "description": "ERP, CRM, documentos y sensores viven en silos. Nadie tiene el contexto completo para decidir."
+      },
+      {
+        "title": "Operación que depende de personas",
+        "description": "Procesos críticos que se frenan si alguien no está: aprobaciones, seguimiento, coordinación y reportes manuales."
+      },
+      {
+        "title": "Reacción tardía en campo",
+        "description": "Flotas, equipos y activos que generan datos cada segundo, pero las alertas llegan cuando el problema ya ocurrió."
+      }
+    ],
+    "transition": "Ahora imagina agentes autónomos que conectan todo y actúan por ti.",
+    "deploying": "Desplegando agentes… {{count}}/{{total}} en línea",
+    "deployed": "Agentes en línea — así se ven trabajando"
+  },
+  "howItWorks": {
+    "badge": "Cómo funciona",
+    "title": "De la primera llamada a",
+    "titleHighlight": "resultados en semanas",
+    "subtitle": "Sin proyectos eternos ni jerga técnica. Un proceso claro en tres pasos.",
+    "steps": [
+      {
+        "tag": "Semana 0",
+        "title": "Auditoría de arquitectura",
+        "description": "Analizamos tus procesos, datos e infraestructura, detectamos dónde un agente autónomo genera más impacto y estimamos el retorno."
+      },
+      {
+        "tag": "Semanas 1–4",
+        "title": "Diseño e integración",
+        "description": "Construimos los agentes con nuestras Agentic Skills, los conectamos a tus sistemas, datos y dispositivos, y los validamos con casos reales."
+      },
+      {
+        "tag": "Mes 2 en adelante",
+        "title": "Escala y mejora continua",
+        "description": "Medimos resultados, ampliamos a nuevas áreas y llevamos la inteligencia al Edge cuando la operación lo requiere."
+      }
+    ],
+    "cta": "Empezar con el paso 1"
+  },
+  "roi": {
+    "badge": "Calculadora de ahorro",
+    "title": "¿Cuánto podrías",
+    "titleHighlight": "ahorrar cada mes?",
+    "subtitle": "Mueve los controles con los datos de tu operación. Es una estimación; en el diagnóstico la afinamos con tus números reales.",
+    "conversations": "Tareas o procesos repetitivos al mes",
+    "minutes": "Minutos promedio por tarea",
+    "hourlyCost": "Costo por hora de tu equipo (USD)",
+    "automation": "Porcentaje que ejecutarían los agentes",
+    "hoursSaved": "Horas liberadas al mes",
+    "moneySaved": "Ahorro estimado al mes",
+    "yearly": "Al año: {{value}}",
+    "cta": "Quiero validar este ahorro",
+    "note": "Cálculo: tareas × minutos × % automatizado × costo por hora."
+  },
+  "products": {
+    "badge": "Producto listo",
+    "title": "Contrata hoy,",
+    "titleHighlight": "sin esperar un proyecto",
+    "subtitle": "Software comercial con precio público, planes y pago en su propio sitio. Ideal si quieres impacto ya.",
+    "aside": "¿Necesitas algo a medida? Más abajo están las soluciones por industria.",
+    "cta": "Ver planes y contratar",
+    "live": "Disponible ahora",
+    "items": [
+      {
+        "id": "smart-frontdesk",
+        "name": "Smart FrontDesk",
+        "description": "Recepción y front desk con IA: atiende visitantes y llamadas, agenda citas y deriva consultas 24/7 para que tu equipo no pierda leads.",
+        "price": "$49",
+        "priceLabel": "Desde",
+        "priceNote": "por mes · cancela cuando quieras",
+        "highlights": [
+          "Atiende llamadas y visitantes con voz e IA",
+          "Agenda citas y califica leads automáticamente",
+          "Opera 24/7 sin sumar headcount"
+        ],
+        "perks": [
+          "Precio público transparente",
+          "Activación rápida en su propio sitio",
+          "Soporte de Agentix Vanguard"
+        ]
+      }
+    ]
+  },
+  "plans": {
+    "badge": "Planes",
+    "title": "Empieza pequeño,",
+    "titleHighlight": "escala cuando funcione",
+    "subtitle": "Todos los planes arrancan con una auditoría de arquitectura y una cotización a la medida de tu volumen.",
+    "popular": "Más elegido",
+    "cta": "Cotizar este plan",
+    "items": [
+      {
+        "name": "Piloto",
+        "tagline": "Para validar el impacto rápido",
+        "price": "Cotización a medida",
+        "features": [
+          "1 proceso o área de negocio",
+          "Agente autónomo con Agentic Skills",
+          "Integración con 1 sistema clave",
+          "Validación de impacto en un proceso clave"
+        ]
+      },
+      {
+        "name": "Crecimiento",
+        "tagline": "Para escalar la autonomía",
+        "price": "Cotización a medida",
+        "features": [
+          "Sistema multi-agente en varias áreas",
+          "Integración con CRM, ERP y datos",
+          "Hybrid RAG con tu conocimiento",
+          "Reportes mensuales de impacto"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "tagline": "Para operaciones críticas",
+        "price": "Cotización a medida",
+        "features": [
+          "Edge Pro AI + IoT nativo",
+          "Despliegue en tu nube (GCP, AWS, Azure)",
+          "Cumplimiento y seguridad avanzada",
+          "Soporte dedicado y SLA"
+        ]
+      }
+    ]
+  },
+  "techDeepDive": {
+    "badge": "Para equipos técnicos",
+    "title": "¿Eres CTO o quieres ver",
+    "titleHighlight": "cómo está construido?",
+    "subtitle": "Arquitectura, modelos de IA, protocolo de calidad y stack completo. Si quieres profundizar, escríbenos y te respondemos.",
+    "open": "Ver detalles técnicos",
+    "close": "Ocultar detalles técnicos",
+    "contactCta": "Hablar con el equipo",
+    "contactSubtitle": "Cuéntanos qué quieres revisar. Te respondemos en admin@agentixvanguard.com.",
+    "namePlaceholder": "Nombre",
+    "emailPlaceholder": "Email de trabajo",
+    "messagePlaceholder": "¿Qué arquitectura o caso quieres revisar?",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Mensaje enviado. Te contactaremos pronto.",
+    "invalid": "Ingresa un email válido.",
+    "error": "No pudimos enviar el mensaje. Escríbenos a",
+    "privacy": "Te contactamos desde",
+    "defaultMessage": "Quiero revisar la arquitectura técnica con el equipo."
+  },
+  "agentFlow": {
+    "badge": "Míralo en acción",
+    "title": "Así trabaja un",
+    "titleHighlight": "sistema multi-agente",
+    "subtitle": "Varios agentes especializados que se coordinan solos: uno detecta, otro analiza con tu conocimiento, otro decide y otro ejecuta en tus sistemas.",
+    "nodes": {
+      "event": "Evento",
+      "analyst": "Agente Analista",
+      "decider": "Agente Decisor",
+      "executor": "Agente Ejecutor",
+      "result": "Resultado"
+    },
+    "consoleTitle": "registro de agentes",
+    "live": "En vivo",
+    "scenarios": [
+      {
+        "name": "Cadena de frío",
+        "steps": [
+          "Sensor IoT del camión 14: temperatura 9,2 °C (límite 8 °C)",
+          "Hybrid RAG: carga de vacunas, tolerancia 30 min, ruta a 22 min del cliente",
+          "Decisión: desviar al centro de frío más cercano y avisar al cliente",
+          "Acción: nueva ruta enviada al conductor y orden actualizada en el ERP",
+          "Carga protegida en 11 minutos, sin intervención humana"
+        ]
+      },
+      {
+        "name": "Oportunidad comercial",
+        "steps": [
+          "Nueva solicitud desde el formulario web de una empresa de 400 empleados",
+          "Hybrid RAG: historial en CRM, sector logístico, interés previo en IoT",
+          "Decisión: lead prioritario, asignar a ventas enterprise",
+          "Acción: lead calificado en el CRM y reunión agendada en el calendario",
+          "Reunión confirmada en 40 segundos"
+        ]
+      },
+      {
+        "name": "Cumplimiento",
+        "steps": [
+          "Contrato de proveedor cargado al repositorio documental",
+          "Hybrid RAG: cruza cláusulas con política interna y normativa vigente",
+          "Decisión: 2 cláusulas de riesgo, requiere revisión legal",
+          "Acción: alerta al equipo legal con resumen y cláusulas resaltadas",
+          "Riesgo detectado antes de la firma"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "badge": "Equipo",
+    "title": "Las personas detrás de",
+    "titleHighlight": "tus agentes",
+    "subtitle": "Ingenieros y estrategas que diseñan, integran y acompañan cada despliegue."
+  },
+  "leadMagnet": {
+    "badge": "Guía + contacto",
+    "title": "De chatbot a agentes autónomos",
+    "titleHighlight": "en 30 días",
+    "subtitle": "Descarga la guía y déjanos tu email: te llega el PDF y nuestro equipo puede contactarte para ayudarte a aplicarla.",
+    "bullets": [
+      "Cómo identificar el proceso con mayor retorno",
+      "Checklist de datos y sistemas antes de empezar",
+      "Plan semana a semana para llegar a producción",
+      "Métricas para demostrar el impacto a dirección"
+    ],
+    "namePlaceholder": "Tu nombre (opcional)",
+    "emailPlaceholder": "Tu email de trabajo",
+    "button": "Descargar y que me contacten",
+    "sending": "Enviando…",
+    "success": "¡Listo! Tu guía se está descargando.",
+    "successFollowUp": "También recibimos tu email. Te contactaremos si podemos ayudarte a implementarla.",
+    "invalid": "Ingresa un email de trabajo válido.",
+    "error": "Hubo un problema al registrar tu email. Escríbenos a",
+    "privacy": "Sin spam. Tu email llega a nuestro equipo en",
+    "leadMessage": "Descargó la guía 'De chatbot a agentes autónomos en 30 días'. Quiere que lo contactemos."
+  },
+  "contact": {
+    "programs": "Miembros de los programas para startups de"
+  },
+  "mobileCta": {
+    "button": "Agendar auditoría",
+    "contact": "Contactar"
+  },
+  "platformTeaser": {
+    "badge": "Seguridad & Plataforma",
+    "title": "Tus datos",
+    "titleHighlight": "bajo control",
+    "subtitle": "Cifrado, auditoría de cada acción y despliegue en tu nube o en el Edge. La arquitectura completa, el stack y el equipo están en la página de plataforma.",
+    "cta": "Ver la plataforma"
+  },
+  "platformPage": {
+    "badge": "Plataforma",
+    "title": "La tecnología detrás de",
+    "titleHighlight": "tus agentes",
+    "subtitle": "Arquitectura, protocolos, stack y seguridad para equipos técnicos que quieren saber exactamente cómo funciona."
   }
 }

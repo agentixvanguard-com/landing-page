@@ -21,7 +21,7 @@ export default function TrustSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -51,7 +51,7 @@ export default function TrustSection() {
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: false, amount: 0.2 }}
                 transition={{ duration: 0.4, delay: i * 0.07 }}
                 className="group flex items-start gap-4 p-5 rounded-xl border border-slate-800/60 bg-slate-900/30 hover:border-cyan-500/20 hover:bg-slate-900/60 transition-all duration-300"
               >
@@ -71,7 +71,7 @@ export default function TrustSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-12 p-6 rounded-2xl border border-cyan-500/10 bg-gradient-to-r from-cyan-500/5 via-transparent to-purple-500/5 text-center"
         >

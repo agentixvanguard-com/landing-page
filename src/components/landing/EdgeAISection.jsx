@@ -113,7 +113,7 @@ export default function EdgeAISection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
@@ -138,7 +138,7 @@ export default function EdgeAISection() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           className="grid md:grid-cols-2 gap-8 mb-20"
         >
           <div className="rounded-2xl border border-blue-500/20 bg-blue-500/5 backdrop-blur-sm p-8">
@@ -165,7 +165,7 @@ export default function EdgeAISection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           className="mb-20"
         >
           <h3 className="text-lg font-semibold text-white mb-6 text-center">
@@ -195,7 +195,7 @@ export default function EdgeAISection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           className="rounded-2xl border border-cyan-500/20 bg-gradient-to-br from-cyan-500/5 to-purple-500/5 backdrop-blur-sm p-8 sm:p-10"
         >
           <div className="flex items-center gap-3 mb-4">

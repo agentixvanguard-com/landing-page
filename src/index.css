@@ -86,3 +86,75 @@
     @apply bg-background text-foreground;
   }
 }
+/* ---------- Landing motion utilities ---------- */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@layer utilities {
+  /* Animated gradient text: combine with bg-gradient-to-r + colors */
+  .text-gradient-animate {
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    @apply animate-gradient-x;
+  }
+
+  /* Light sweep across a button (parent needs relative + overflow-hidden) */
+  .btn-shine::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 40%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+    @apply animate-shine pointer-events-none;
+  }
+
+  /* Rotating conic border for highlighted cards */
+  .border-animated {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(#0a1628, #0a1628) padding-box,
+      conic-gradient(from var(--border-angle), rgba(34, 211, 238, 0.1) 0%, #22d3ee 10%, #a855f7 20%, rgba(168, 85, 247, 0.1) 30%, rgba(34, 211, 238, 0.1) 100%) border-box;
+    @apply animate-border-spin;
+  }
+
+  /* Styled range input for the ROI calculator */
+  .range-neon {
+    @apply w-full h-2 rounded-full appearance-none cursor-pointer bg-slate-800;
+  }
+  .range-neon::-webkit-slider-thumb {
+    @apply appearance-none w-5 h-5 rounded-full bg-cyan-400 border-2 border-white shadow-[0_0_12px_rgba(34,211,238,0.8)] transition-transform;
+  }
+  .range-neon::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+  }
+  .range-neon::-moz-range-thumb {
+    @apply w-5 h-5 rounded-full bg-cyan-400 border-2 border-white shadow-[0_0_12px_rgba(34,211,238,0.8)];
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keep anchored sections clear of the fixed navbar */
+section[id],
+div[id] {
+  scroll-margin-top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

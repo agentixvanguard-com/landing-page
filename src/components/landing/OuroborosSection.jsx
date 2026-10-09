@@ -26,7 +26,7 @@ export default function OuroborosSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
@@ -61,7 +61,7 @@ export default function OuroborosSection() {
                   key={i}
                   initial={{ opacity: 0, x: i % 2 === 0 ? -30 : 30 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: false, amount: 0.2 }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
                   className={`relative flex flex-col sm:flex-row items-start gap-6 ${
                     i % 2 !== 0 ? "sm:flex-row-reverse sm:text-right" : ""
@@ -102,7 +102,7 @@ export default function OuroborosSection() {
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: false, amount: 0.2 }}
             className="flex justify-center mt-12"
           >
             <div className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-purple-500/20 bg-purple-500/5">

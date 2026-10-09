@@ -77,11 +77,44 @@ theme: {
         to: {
           height: '0'
         }
+      },
+      'gradient-x': {
+        '0%, 100%': { backgroundPosition: '0% 50%' },
+        '50%': { backgroundPosition: '100% 50%' }
+      },
+      shine: {
+        '0%': { transform: 'translateX(-120%) skewX(-20deg)' },
+        '60%, 100%': { transform: 'translateX(220%) skewX(-20deg)' }
+      },
+      float: {
+        '0%, 100%': { transform: 'translateY(0)' },
+        '50%': { transform: 'translateY(-10px)' }
+      },
+      'pulse-glow': {
+        '0%, 100%': { opacity: '0.5', transform: 'scale(1)' },
+        '50%': { opacity: '1', transform: 'scale(1.08)' }
+      },
+      'border-spin': {
+        to: { '--border-angle': '360deg' }
+      },
+      'ping-slow': {
+        '75%, 100%': { transform: 'scale(2)', opacity: '0' }
+      },
+      'bounce-x': {
+        '0%, 100%': { transform: 'translateX(0)' },
+        '50%': { transform: 'translateX(4px)' }
       }
     },
     animation: {
       'accordion-down': 'accordion-down 0.2s ease-out',
-      'accordion-up': 'accordion-up 0.2s ease-out'
+      'accordion-up': 'accordion-up 0.2s ease-out',
+      'gradient-x': 'gradient-x 6s ease infinite',
+      shine: 'shine 3.5s ease-in-out infinite',
+      float: 'float 6s ease-in-out infinite',
+      'pulse-glow': 'pulse-glow 4s ease-in-out infinite',
+      'border-spin': 'border-spin 6s linear infinite',
+      'ping-slow': 'ping-slow 2.5s cubic-bezier(0, 0, 0.2, 1) infinite',
+      'bounce-x': 'bounce-x 1.2s ease-in-out infinite'
     }
   }
 },

@@ -36,7 +36,7 @@ export default function ProductTiersSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -62,7 +62,7 @@ export default function ProductTiersSection() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
           {["cloud", "edge"].map((key) => (
@@ -99,7 +99,7 @@ export default function ProductTiersSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
@@ -198,7 +198,7 @@ export default function ProductTiersSection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           className="text-center"
         >
           <p className="text-slate-400 mb-6">{t("productTiers.ctaText")}</p>

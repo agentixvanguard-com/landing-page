@@ -1,3 +1,12 @@
+/** Kept in catalog data but excluded from UI listings. Remove a slug to show it again. */
+const HIDDEN_SERVICE_SLUGS = new Set([
+  "ai-hr-management",
+  "vod-multilingual-dubbing",
+  "smart-delivery-locker",
+  "visitor-parking-control",
+  "moving-audit-monitoring",
+]);
+
 export function buildServiceCatalog(t, language) {
   const baseItems = t("services.items", { returnObjects: true }) || [];
   const baseSlugs = [
@@ -165,5 +174,7 @@ export function buildServiceCatalog(t, language) {
     slug: baseSlugs[index] || `service-${index + 1}`,
   }));
 
-  return [...normalizedBaseItems, ...extras];
+  return [...normalizedBaseItems, ...extras].filter(
+    (item) => !HIDDEN_SERVICE_SLUGS.has(item.slug)
+  );
 }

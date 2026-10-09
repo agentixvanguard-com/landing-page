@@ -34,7 +34,7 @@ export default function TechStackSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -65,7 +65,7 @@ export default function TechStackSection() {
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: false, amount: 0.2 }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
                 className={`group relative p-6 rounded-xl border ${style.borderColor} bg-slate-900/40 backdrop-blur-sm hover:bg-slate-900/70 transition-all duration-300`}
               >

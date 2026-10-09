@@ -33,7 +33,7 @@ export default function BlogSection() {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, amount: 0.2 }}
                     transition={{ duration: 0.6 }}
                     className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16"
                 >
@@ -61,7 +61,7 @@ export default function BlogSection() {
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
+                    viewport={{ once: false, amount: 0.2, margin: "-50px" }}
                     className="grid gap-8 md:grid-cols-3"
                 >
                     {Array.isArray(items) &&

@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Linkedin, Facebook, Instagram, Twitter, ExternalLink } from "lucide-react";
+import { Linkedin, Facebook, Instagram, Twitter, ExternalLink, Mail, MessageCircle, Phone, Globe } from "lucide-react";
+import { SITE, whatsappUrl } from "@/config/site";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const wa = whatsappUrl();
 
   return (
     <footer className="relative py-20 border-t border-slate-800/50 bg-[#050a18] overflow-hidden">
@@ -12,7 +14,7 @@ export default function Footer() {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr_1.5fr_0.8fr] gap-12 lg:gap-8 mb-16">
           {/* Brand Column */}
           <div className="flex flex-col gap-6">
             <div className="flex flex-col items-start gap-1.5 shrink-0">
@@ -78,11 +80,46 @@ export default function Footer() {
                   {t('footer.columns.legal.cookies')}
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Contact Column */}
+          <div>
+            <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-6">
+              {t('footer.columns.contact.title')}
+            </h4>
+            <ul className="space-y-4">
               <li>
-                <Link to="/data-deletion" className="text-sm text-slate-500 hover:text-cyan-400 transition-colors">
-                  {t('footer.columns.legal.dataDeletion')}
-                </Link>
+                <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                  <Mail className="w-4 h-4 shrink-0" />
+                  {SITE.email}
+                </a>
               </li>
+              {wa && (
+                <li>
+                  <a href={wa} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                    <MessageCircle className="w-4 h-4 shrink-0" />
+                    {t('footer.columns.contact.whatsapp')}
+                  </a>
+                </li>
+              )}
+              {SITE.phone && (
+                <li>
+                  <a href={`tel:${SITE.phone.replace(/\s/g, "")}`} className="flex items-center gap-2 text-sm text-slate-500 hover:text-cyan-400 transition-colors">
+                    <Phone className="w-4 h-4 shrink-0" />
+                    {SITE.phone}
+                  </a>
+                </li>
+              )}
+              {SITE.address && (
+                <li className="flex items-start gap-2 text-sm text-slate-500">
+                  <Globe className="w-4 h-4 shrink-0 mt-0.5" />
+                  <span className="leading-relaxed">
+                    <span className="block">{t("footer.columns.contact.location")}</span>
+                    <span className="block text-slate-600">{t("footer.columns.contact.remote")}</span>
+                  </span>
+                </li>
+              )}
             </ul>
           </div>
 
@@ -93,7 +130,7 @@ export default function Footer() {
             </h4>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/company/agentix-vanguard/home/"
+                href={SITE.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.linkedin')}
@@ -102,7 +139,7 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://www.facebook.com/people/Agentix-Vanguard/61590516910718/"
+                href={SITE.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.facebook')}
@@ -111,7 +148,7 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/agentix.vanguard/"
+                href={SITE.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.instagram')}
@@ -120,7 +157,7 @@ export default function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/agentixvanguard"
+                href={SITE.social.x}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('footer.columns.social.twitter')}
